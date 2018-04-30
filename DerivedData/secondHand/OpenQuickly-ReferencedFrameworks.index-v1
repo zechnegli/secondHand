@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>GoogleMobileAds</string>
+	<string>FirebasePerformance</string>
+	<string>CommonCrypto</string>
+	<string>SafariServices</string>
+	<string>FirebaseDynamicLinks</string>
+	<string>AudioToolbox</string>
+	<string>objc</string>
+	<string>FacebookCore</string>
+	<string>FirebaseAuth</string>
+	<string>Firebase</string>
+	<string>FirebaseCore</string>
+	<string>FirebaseMessaging</string>
+	<string>Bolts</string>
+	<string>MobileCoreServices</string>
+	<string>sys</string>
+	<string>GTMSessionFetcherIOS</string>
+	<string>Social</string>
+	<string>CoreTelephony</string>
+	<string>GTMSessionFetcher</string>
+	<string>FirebaseInstanceID</string>
+	<string>StoreKit</string>
+	<string>FirebaseFirestore</string>
+	<string>AdSupport</string>
+	<string>Accounts</string>
+	<string>FirebaseDatabase</string>
+	<string>FBSDKShareKit</string>
+	<string>FirebaseRemoteConfig</string>
+	<string>libkern</string>
+	<string>CoreText</string>
+	<string>Crashlytics</string>
+	<string>WatchKit</string>
+	<string>Foundation</string>
+	<string>Fabric</string>
+	<string>FirebaseCrash</string>
+	<string>GoogleSignIn</string>
+	<string>FirebaseAppIndexing</string>
+	<string>FBSDKLoginKit</string>
+	<string>QuartzCore</string>
+	<string>Security</string>
+	<string>FirebaseInvites</string>
+	<string>ObjectiveC</string>
+	<string>AssetsLibrary</string>
+	<string>FBSDKCoreKit</string>
+	<string>SystemConfiguration</string>
+	<string>FirebaseStorage</string>
+	<string>FirebaseAnalytics</string>
+	<string>FirebaseFunctions</string>
+	<string>GTMSessionFetcherOSX</string>
+	<string>UIKit</string>
+	<string>CoreGraphics</string>
+</array>
+</plist>

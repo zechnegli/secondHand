@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login In Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginInController" customModule="secondHand" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IId-7n-Mqt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PrZ-vq-B87">
+                                <rect key="frame" x="139" y="318" width="92" height="30"/>
+                                <state key="normal" title="google"/>
+                                <connections>
+                                    <action selector="loginInWithGoogle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W2c-Ch-acy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCK-EF-jtf">
+                                <rect key="frame" x="139" y="356" width="92" height="30"/>
+                                <state key="normal" title="FB"/>
+                                <connections>
+                                    <action selector="loginInWithFB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YnJ-Zz-bxp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WCK-EF-jtf" firstAttribute="top" secondItem="PrZ-vq-B87" secondAttribute="bottom" constant="8" id="5Bk-OX-g1W"/>
+                            <constraint firstItem="Bgv-DA-yS8" firstAttribute="bottom" secondItem="PrZ-vq-B87" secondAttribute="bottom" constant="319" id="FCp-ca-EkU"/>
+                            <constraint firstItem="PrZ-vq-B87" firstAttribute="top" secondItem="Bgv-DA-yS8" secondAttribute="top" constant="298" id="K28-JF-WQg"/>
+                            <constraint firstItem="PrZ-vq-B87" firstAttribute="leading" secondItem="Bgv-DA-yS8" secondAttribute="leading" constant="139" id="L72-V1-qCR"/>
+                            <constraint firstItem="Bgv-DA-yS8" firstAttribute="trailing" secondItem="PrZ-vq-B87" secondAttribute="trailing" constant="144" id="OJc-re-vvb"/>
+                            <constraint firstItem="Bgv-DA-yS8" firstAttribute="trailing" secondItem="WCK-EF-jtf" secondAttribute="trailing" constant="144" id="T3D-6K-MiT"/>
+                            <constraint firstItem="Bgv-DA-yS8" firstAttribute="bottom" secondItem="WCK-EF-jtf" secondAttribute="bottom" constant="281" id="hSv-xX-ggW"/>
+                            <constraint firstItem="WCK-EF-jtf" firstAttribute="leading" secondItem="Bgv-DA-yS8" secondAttribute="leading" constant="139" id="iuh-Ea-TNy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bgv-DA-yS8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

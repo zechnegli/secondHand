@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "a63fa3c361e9a15b538c74ae131726cc"
+build_time: [1525120678, 748420000]
+inputs:
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/controller/LoginInController.swift": [1525120677, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/View/GoogleSignInButton.swift": [1524864164, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/AppDelegate.swift": [1525042837, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/Constants/FirebaseReference.swift": [1524871917, 0]
