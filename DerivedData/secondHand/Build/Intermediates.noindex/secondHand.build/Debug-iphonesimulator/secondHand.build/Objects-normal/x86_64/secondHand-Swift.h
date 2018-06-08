@@ -164,6 +164,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import WebKit;
 @import GoogleSignIn;
 @import CoreGraphics;
 #endif
@@ -182,6 +183,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="secondHand",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+@class WKWebView;
+@class WKNavigation;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC10secondHand17AdsViewController")
+@interface AdsViewController : UIViewController <WKNavigationDelegate>
+- (void)viewDidLoad;
+- (void)webView:(WKWebView * _Nonnull)webView didFailNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
+- (void)webView:(WKWebView * _Nonnull)webView didFailProvisionalNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
 
 @class GIDSignIn;
 @class GIDGoogleUser;
@@ -202,7 +217,14 @@ SWIFT_CLASS("_TtC10secondHand11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSCoder;
+
+SWIFT_CLASS("_TtC10secondHand14EmailTextField")
+@interface EmailTextField : UITextField
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC10secondHand18GoogleSignInButton")
 @interface GoogleSignInButton : GIDSignInButton
@@ -210,18 +232,84 @@ SWIFT_CLASS("_TtC10secondHand18GoogleSignInButton")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+
+SWIFT_CLASS("_TtC10secondHand28HomeTableTableViewController")
+@interface HomeTableTableViewController : UITableViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIScrollView;
+@class UIView;
+
+SWIFT_CLASS("_TtC10secondHand18HomeViewController")
+@interface HomeViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified pageControllerView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified tableControllerView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIButton;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC10secondHand17LoginInController")
 @interface LoginInController : UIViewController <GIDSignInUIDelegate>
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified userNameTextfield;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordTextfield;
+- (void)viewDidLoad;
+- (IBAction)signInButtonPressed:(UIButton * _Nonnull)sender;
 - (IBAction)loginInWithFB:(UIButton * _Nonnull)sender;
 - (IBAction)loginInWithGoogle:(UIButton * _Nonnull)sender;
 - (IBAction)loginInWithWechat:(UIButton * _Nonnull)sender;
 - (IBAction)signUpBtnPressed:(UIButton * _Nonnull)sender;
-- (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10secondHand18PageViewController")
+@interface PageViewController : UIPageViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
+- (void)viewDidLoad;
+- (UIViewController * _Nullable)pageViewController:(UIPageViewController * _Nonnull)pageViewController viewControllerBeforeViewController:(UIViewController * _Nonnull)viewController SWIFT_WARN_UNUSED_RESULT;
+- (UIViewController * _Nullable)pageViewController:(UIPageViewController * _Nonnull)pageViewController viewControllerAfterViewController:(UIViewController * _Nonnull)viewController SWIFT_WARN_UNUSED_RESULT;
+- (void)pageViewController:(UIPageViewController * _Nonnull)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray<UIViewController *> * _Nonnull)previousViewControllers transitionCompleted:(BOOL)completed;
+- (nonnull instancetype)initWithTransitionStyle:(UIPageViewControllerTransitionStyle)style navigationOrientation:(UIPageViewControllerNavigationOrientation)navigationOrientation options:(NSDictionary<NSString *, id> * _Nullable)options OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10secondHand19SearchBarHomeScreen")
+@interface SearchBarHomeScreen : UISearchBar
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10secondHand16SignUpController")
+@interface SignUpController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified accountEmailTextfield;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordTextfield;
+- (void)viewDidLoad;
+- (IBAction)signUpBtnPressed:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10secondHand9TextField")
+@interface TextField : UITextField
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 

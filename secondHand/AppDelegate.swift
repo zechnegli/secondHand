@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 import GoogleSignIn
-
+import SwiftKeychainWrapper
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     //MARK: GID sigin in delegate methods
@@ -22,25 +22,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         
         guard let authentication = user.authentication else { return }
         let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken, accessToken: authentication.accessToken)
-        print("zecheng \(credential.provider)")
+        
         //use google credential to sign in firebase
         Auth.auth().signIn(with: credential) { (user, error) in
             if let error = error {
                 print("Zecheng signing firebase with google failed")
                 return
+            } else if let user = user {
+                //store firebase token
+                KeychainWrapper.standard.set(user.uid, forKey: UID)
+                self.setUpbasicInfo(currentUserUID: user.uid)
             }
             print("Zecheng signing firebase with google succeed")
             
-            //set up uid and login info in firebase
-            if let user = user {
-                
-                FirebaseReference.constant.setCurrentUID(id: user.uid)
-                FirebaseReference.constant.setCurrentUserInfoRef(id: user.uid)
-               
-               
-            }
+            
             
            
+            
+           
+        }
+    }
+    //if this is the first time that the user sigin in firebase, set up baisc info about this user in database
+    func setUpbasicInfo(currentUserUID: String) {
+        
+        FirebaseReference.constant.databaseUsersRef.observeSingleEvent(of: .value, with: { (snapshot) in
+            if  let value = snapshot.value as? [String: Any] {
+                guard let currentUserRef = value[currentUserUID] as? [String: Any] else {
+                    print("zecheng this is the first time that the user signin the firebase")
+                    return
+                }
+               
+            }
+            print("zecheng this is not the first time that the user signin the firebase")
+        }) { (error) in
+            print("zecheng verfing user info in freabase database failed")
         }
     }
         

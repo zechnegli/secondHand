@@ -12,6 +12,7 @@ target 'secondHand' do
 	pod 'FacebookCore'
 	pod 'FacebookLogin'
 	pod 'FacebookShare'
+	pod 'SwiftKeychainWrapper', '~> 3.0'
   # Pods for secondHand
 
 end

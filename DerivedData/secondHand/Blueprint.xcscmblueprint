@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "668FB87EDD33B2BE222C89979B2A839301AE4CBD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "668FB87EDD33B2BE222C89979B2A839301AE4CBD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B1708164-CBE6-4CF4-9D61-A7CD85AF6F84",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "668FB87EDD33B2BE222C89979B2A839301AE4CBD" : "secondHand\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "secondHand",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "secondHand.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zechnegli\/secondHand.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "668FB87EDD33B2BE222C89979B2A839301AE4CBD"
+    }
+  ]
+}

@@ -29,6 +29,10 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>241070866662957</string>
+	<key>FacebookDisplayName</key>
+	<string>secondHand</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -52,19 +56,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    
-    <key>CFBundleURLTypes</key>
-    <array>
-        <dict>
-            <key>CFBundleURLSchemes</key>
-            <array>
-                <string>fb241070866662957</string>
-            </array>
-        </dict>
-    </array>
-    <key>FacebookAppID</key>
-    <string>241070866662957</string>
-    <key>FacebookDisplayName</key>
-    <string>secondHand</string>
 </dict>
 </plist>

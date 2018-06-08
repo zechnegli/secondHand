@@ -20,6 +20,7 @@ depends-top-level:
 - !private "Auth"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "CastingPrecedence"
 - "Error"
 - !private "FirebaseApp"
 - !private "FirebaseReference"
@@ -27,10 +28,13 @@ depends-top-level:
 - "GIDSignIn"
 - "GIDSignInDelegate"
 - !private "GoogleAuthProvider"
+- !private "KeychainWrapper"
+- "String"
 - !private "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
+- !private "UID"
 - "UIResponder"
 - "UIWindow"
 - !private "print"
@@ -43,8 +47,11 @@ depends-member:
 - ["10secondHand11AppDelegateC", "GIDGoogleUser"]
 - ["10secondHand11AppDelegateC", "GIDSignIn"]
 - !private ["10secondHand11AppDelegateC", "GoogleAuthProvider"]
+- !private ["10secondHand11AppDelegateC", "KeychainWrapper"]
+- ["10secondHand11AppDelegateC", "String"]
 - ["10secondHand11AppDelegateC", "UIApplication"]
 - ["10secondHand11AppDelegateC", "UIApplicationLaunchOptionsKey"]
+- !private ["10secondHand11AppDelegateC", "UID"]
 - ["10secondHand11AppDelegateC", "UIWindow"]
 - ["10secondHand11AppDelegateC", "application"]
 - ["10secondHand11AppDelegateC", "applicationDidBecomeActive"]
@@ -61,18 +68,20 @@ depends-member:
 - ["10secondHand11AppDelegateC", "deinit"]
 - ["10secondHand11AppDelegateC", "init"]
 - !private ["10secondHand11AppDelegateC", "print"]
+- ["10secondHand11AppDelegateC", "setUpbasicInfo"]
 - ["10secondHand11AppDelegateC", "sign"]
 - ["10secondHand11AppDelegateC", "signIn"]
 - ["10secondHand11AppDelegateC", "window"]
 - !private ["So4AuthC", "auth"]
 - !private ["So4AuthC", "signIn"]
-- !private ["So14AuthCredentialC", "provider"]
 - !private ["s23BidirectionalCollectionP", "init"]
 - !private ["s7CVarArgP", "Auth"]
 - !private ["s7CVarArgP", "FirebaseApp"]
 - !private ["s7CVarArgP", "FirebaseReference"]
 - !private ["s7CVarArgP", "GIDSignIn"]
 - !private ["s7CVarArgP", "GoogleAuthProvider"]
+- !private ["s7CVarArgP", "KeychainWrapper"]
+- !private ["s7CVarArgP", "UID"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "accessToken"]
 - !private ["s7CVarArgP", "app"]
@@ -96,21 +105,27 @@ depends-member:
 - !private ["s7CVarArgP", "delegate"]
 - !private ["s7CVarArgP", "idToken"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "observeSingleEvent"]
 - !private ["s7CVarArgP", "options"]
 - !private ["s7CVarArgP", "print"]
-- !private ["s7CVarArgP", "provider"]
+- !private ["s7CVarArgP", "setUpbasicInfo"]
 - !private ["s7CVarArgP", "sharedInstance"]
 - ["s7CVarArgP", "sign"]
 - ["s7CVarArgP", "signIn"]
+- !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "uid"]
+- !private ["s7CVarArgP", "value"]
 - ["s7CVarArgP", "window"]
 - !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
 - !private ["s10ComparableP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "Auth"]
 - !private ["s28CustomDebugStringConvertibleP", "FirebaseApp"]
 - !private ["s28CustomDebugStringConvertibleP", "FirebaseReference"]
 - !private ["s28CustomDebugStringConvertibleP", "GIDSignIn"]
 - !private ["s28CustomDebugStringConvertibleP", "GoogleAuthProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "KeychainWrapper"]
+- !private ["s28CustomDebugStringConvertibleP", "UID"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "accessToken"]
 - !private ["s28CustomDebugStringConvertibleP", "app"]
@@ -134,21 +149,27 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
 - !private ["s28CustomDebugStringConvertibleP", "idToken"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "observeSingleEvent"]
 - !private ["s28CustomDebugStringConvertibleP", "options"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
-- !private ["s28CustomDebugStringConvertibleP", "provider"]
+- !private ["s28CustomDebugStringConvertibleP", "setUpbasicInfo"]
 - !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
 - ["s28CustomDebugStringConvertibleP", "sign"]
 - ["s28CustomDebugStringConvertibleP", "signIn"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "uid"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "Auth"]
 - !private ["s23CustomStringConvertibleP", "FirebaseApp"]
 - !private ["s23CustomStringConvertibleP", "FirebaseReference"]
 - !private ["s23CustomStringConvertibleP", "GIDSignIn"]
 - !private ["s23CustomStringConvertibleP", "GoogleAuthProvider"]
+- !private ["s23CustomStringConvertibleP", "KeychainWrapper"]
+- !private ["s23CustomStringConvertibleP", "UID"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "accessToken"]
 - !private ["s23CustomStringConvertibleP", "app"]
@@ -172,21 +193,33 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "idToken"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "observeSingleEvent"]
 - !private ["s23CustomStringConvertibleP", "options"]
 - !private ["s23CustomStringConvertibleP", "print"]
-- !private ["s23CustomStringConvertibleP", "provider"]
+- !private ["s23CustomStringConvertibleP", "setUpbasicInfo"]
 - !private ["s23CustomStringConvertibleP", "sharedInstance"]
 - ["s23CustomStringConvertibleP", "sign"]
 - ["s23CustomStringConvertibleP", "signIn"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "uid"]
+- !private ["s23CustomStringConvertibleP", "value"]
 - ["s23CustomStringConvertibleP", "window"]
+- !private ["SC13DataEventTypeO", "value"]
+- !private ["So12DataSnapshotC", "value"]
+- !private ["So13DatabaseQueryC", "observeSingleEvent"]
+- !private ["So17DatabaseReferenceC", "observeSingleEvent"]
 - !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
 - !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
 - !private ["s9EquatableP", "Auth"]
 - !private ["s9EquatableP", "FirebaseApp"]
 - !private ["s9EquatableP", "FirebaseReference"]
 - !private ["s9EquatableP", "GIDSignIn"]
 - !private ["s9EquatableP", "GoogleAuthProvider"]
+- !private ["s9EquatableP", "KeychainWrapper"]
+- !private ["s9EquatableP", "UID"]
 - ["s9EquatableP", ""]
 - !private ["s9EquatableP", "accessToken"]
 - !private ["s9EquatableP", "app"]
@@ -210,14 +243,18 @@ depends-member:
 - !private ["s9EquatableP", "delegate"]
 - !private ["s9EquatableP", "idToken"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "observeSingleEvent"]
 - !private ["s9EquatableP", "options"]
 - !private ["s9EquatableP", "print"]
-- !private ["s9EquatableP", "provider"]
+- !private ["s9EquatableP", "setUpbasicInfo"]
 - !private ["s9EquatableP", "sharedInstance"]
 - ["s9EquatableP", "sign"]
 - ["s9EquatableP", "signIn"]
+- !private ["s9EquatableP", "subscript"]
 - !private ["s9EquatableP", "uid"]
+- !private ["s9EquatableP", "value"]
 - ["s9EquatableP", "window"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
@@ -226,8 +263,7 @@ depends-member:
 - !private ["So11FirebaseAppC", "options"]
 - !private ["So15FirebaseOptionsC", "clientID"]
 - !private ["10secondHand17FirebaseReferenceC", "constant"]
-- !private ["10secondHand17FirebaseReferenceC", "setCurrentUID"]
-- !private ["10secondHand17FirebaseReferenceC", "setCurrentUserInfoRef"]
+- !private ["10secondHand17FirebaseReferenceC", "databaseUsersRef"]
 - !private ["So17GIDAuthenticationC", "accessToken"]
 - !private ["So17GIDAuthenticationC", "idToken"]
 - !private ["So13GIDGoogleUserC", "authentication"]
@@ -239,6 +275,8 @@ depends-member:
 - !private ["So17GIDSignInDelegateP", "FirebaseReference"]
 - !private ["So17GIDSignInDelegateP", "GIDSignIn"]
 - !private ["So17GIDSignInDelegateP", "GoogleAuthProvider"]
+- !private ["So17GIDSignInDelegateP", "KeychainWrapper"]
+- !private ["So17GIDSignInDelegateP", "UID"]
 - ["So17GIDSignInDelegateP", ""]
 - ["So17GIDSignInDelegateP", "application"]
 - ["So17GIDSignInDelegateP", "applicationDidBecomeActive"]
@@ -253,6 +291,7 @@ depends-member:
 - ["So17GIDSignInDelegateP", "applicationWillResignActive"]
 - ["So17GIDSignInDelegateP", "applicationWillTerminate"]
 - !private ["So17GIDSignInDelegateP", "print"]
+- !private ["So17GIDSignInDelegateP", "setUpbasicInfo"]
 - ["So17GIDSignInDelegateP", "sign"]
 - ["So17GIDSignInDelegateP", "signIn"]
 - ["So17GIDSignInDelegateP", "window"]
@@ -262,6 +301,8 @@ depends-member:
 - !private ["s8HashableP", "FirebaseReference"]
 - !private ["s8HashableP", "GIDSignIn"]
 - !private ["s8HashableP", "GoogleAuthProvider"]
+- !private ["s8HashableP", "KeychainWrapper"]
+- !private ["s8HashableP", "UID"]
 - ["s8HashableP", ""]
 - !private ["s8HashableP", "accessToken"]
 - !private ["s8HashableP", "app"]
@@ -285,14 +326,18 @@ depends-member:
 - !private ["s8HashableP", "delegate"]
 - !private ["s8HashableP", "idToken"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "observeSingleEvent"]
 - !private ["s8HashableP", "options"]
 - !private ["s8HashableP", "print"]
-- !private ["s8HashableP", "provider"]
+- !private ["s8HashableP", "setUpbasicInfo"]
 - !private ["s8HashableP", "sharedInstance"]
 - ["s8HashableP", "sign"]
 - ["s8HashableP", "signIn"]
 - !private ["s8HashableP", "uid"]
+- !private ["s8HashableP", "value"]
 - ["s8HashableP", "window"]
+- !private ["20SwiftKeychainWrapper0bC0C", "set"]
+- !private ["20SwiftKeychainWrapper0bC0C", "standard"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "accessToken"]
@@ -307,8 +352,11 @@ depends-member:
 - ["So8NSObjectC", "GIDGoogleUser"]
 - ["So8NSObjectC", "GIDSignIn"]
 - !private ["So8NSObjectC", "GoogleAuthProvider"]
+- !private ["So8NSObjectC", "KeychainWrapper"]
+- ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
+- !private ["So8NSObjectC", "UID"]
 - ["So8NSObjectC", "UIWindow"]
 - !private ["So8NSObjectC", "accessToken"]
 - !private ["So8NSObjectC", "app"]
@@ -332,19 +380,23 @@ depends-member:
 - !private ["So8NSObjectC", "delegate"]
 - !private ["So8NSObjectC", "idToken"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "observeSingleEvent"]
 - !private ["So8NSObjectC", "options"]
 - !private ["So8NSObjectC", "print"]
-- !private ["So8NSObjectC", "provider"]
+- ["So8NSObjectC", "setUpbasicInfo"]
 - !private ["So8NSObjectC", "sharedInstance"]
 - ["So8NSObjectC", "sign"]
 - ["So8NSObjectC", "signIn"]
 - !private ["So8NSObjectC", "uid"]
+- !private ["So8NSObjectC", "value"]
 - ["So8NSObjectC", "window"]
 - !private ["So16NSObjectProtocolP", "Auth"]
 - !private ["So16NSObjectProtocolP", "FirebaseApp"]
 - !private ["So16NSObjectProtocolP", "FirebaseReference"]
 - !private ["So16NSObjectProtocolP", "GIDSignIn"]
 - !private ["So16NSObjectProtocolP", "GoogleAuthProvider"]
+- !private ["So16NSObjectProtocolP", "KeychainWrapper"]
+- !private ["So16NSObjectProtocolP", "UID"]
 - ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "accessToken"]
 - !private ["So16NSObjectProtocolP", "app"]
@@ -368,16 +420,20 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "delegate"]
 - !private ["So16NSObjectProtocolP", "idToken"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "observeSingleEvent"]
 - !private ["So16NSObjectProtocolP", "options"]
 - !private ["So16NSObjectProtocolP", "print"]
-- !private ["So16NSObjectProtocolP", "provider"]
+- !private ["So16NSObjectProtocolP", "setUpbasicInfo"]
 - !private ["So16NSObjectProtocolP", "sharedInstance"]
 - ["So16NSObjectProtocolP", "sign"]
 - ["So16NSObjectProtocolP", "signIn"]
 - !private ["So16NSObjectProtocolP", "uid"]
+- !private ["So16NSObjectProtocolP", "value"]
 - ["So16NSObjectProtocolP", "window"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "value"]
 - !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
@@ -387,6 +443,8 @@ depends-member:
 - !private ["So21UIApplicationDelegateP", "FirebaseReference"]
 - !private ["So21UIApplicationDelegateP", "GIDSignIn"]
 - !private ["So21UIApplicationDelegateP", "GoogleAuthProvider"]
+- !private ["So21UIApplicationDelegateP", "KeychainWrapper"]
+- !private ["So21UIApplicationDelegateP", "UID"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
@@ -401,6 +459,7 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
 - !private ["So21UIApplicationDelegateP", "print"]
+- !private ["So21UIApplicationDelegateP", "setUpbasicInfo"]
 - ["So21UIApplicationDelegateP", "sign"]
 - ["So21UIApplicationDelegateP", "signIn"]
 - ["So21UIApplicationDelegateP", "window"]
@@ -409,6 +468,8 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "FirebaseReference"]
 - !private ["So30UIPasteConfigurationSupportingP", "GIDSignIn"]
 - !private ["So30UIPasteConfigurationSupportingP", "GoogleAuthProvider"]
+- !private ["So30UIPasteConfigurationSupportingP", "KeychainWrapper"]
+- !private ["So30UIPasteConfigurationSupportingP", "UID"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
@@ -424,6 +485,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "setUpbasicInfo"]
 - ["So30UIPasteConfigurationSupportingP", "sign"]
 - ["So30UIPasteConfigurationSupportingP", "signIn"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
@@ -435,8 +497,11 @@ depends-member:
 - ["So11UIResponderC", "GIDGoogleUser"]
 - ["So11UIResponderC", "GIDSignIn"]
 - !private ["So11UIResponderC", "GoogleAuthProvider"]
+- !private ["So11UIResponderC", "KeychainWrapper"]
+- ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
+- !private ["So11UIResponderC", "UID"]
 - ["So11UIResponderC", "UIWindow"]
 - ["So11UIResponderC", ""]
 - ["So11UIResponderC", "application"]
@@ -453,6 +518,7 @@ depends-member:
 - ["So11UIResponderC", "applicationWillTerminate"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "setUpbasicInfo"]
 - ["So11UIResponderC", "sign"]
 - ["So11UIResponderC", "signIn"]
 - ["So11UIResponderC", "window"]
@@ -461,6 +527,8 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "FirebaseReference"]
 - !private ["So30UIResponderStandardEditActionsP", "GIDSignIn"]
 - !private ["So30UIResponderStandardEditActionsP", "GoogleAuthProvider"]
+- !private ["So30UIResponderStandardEditActionsP", "KeychainWrapper"]
+- !private ["So30UIResponderStandardEditActionsP", "UID"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
@@ -476,6 +544,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "setUpbasicInfo"]
 - ["So30UIResponderStandardEditActionsP", "sign"]
 - ["So30UIResponderStandardEditActionsP", "signIn"]
 - ["So30UIResponderStandardEditActionsP", "window"]
@@ -491,6 +560,8 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FirebaseReference"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignIn"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GoogleAuthProvider"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "KeychainWrapper"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UID"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "accessToken"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "app"]
@@ -514,20 +585,22 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "idToken"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observeSingleEvent"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "options"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "provider"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUpbasicInfo"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "sign"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "uid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "10secondHand11AppDelegateC"
 - !private "So4AuthC"
-- !private "So14AuthCredentialC"
 - !private "s23BidirectionalCollectionP"
 - "s7CVarArgP"
 - !private "s10CollectionP"
@@ -536,9 +609,15 @@ depends-nominal:
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "SC13DataEventTypeO"
+- !private "So12DataSnapshotC"
+- !private "So13DatabaseQueryC"
+- !private "So17DatabaseReferenceC"
 - !private "s9DecodableP"
+- !private "s10DictionaryV"
 - !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
@@ -551,6 +630,7 @@ depends-nominal:
 - "So17GIDSignInDelegateP"
 - !private "So18GoogleAuthProviderC"
 - "s8HashableP"
+- !private "20SwiftKeychainWrapper0bC0C"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "So8NSCodingP"
@@ -558,6 +638,7 @@ depends-nominal:
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
 - !private "s8SequenceP"
 - !private "SS"
 - !private "s14StringProtocolP"
@@ -580,6 +661,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -594,14 +676,23 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
@@ -609,10 +700,16 @@ depends-external:
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/Core/Sources/Firebase.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
@@ -622,13 +719,20 @@ depends-external:
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
@@ -640,25 +744,53 @@ depends-external:
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/Core/Sources/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
@@ -666,7 +798,11 @@ depends-external:
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -677,4 +813,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "da55396ec8410b52ec95d88ef5c67662"
+interface-hash: "e9f53cc68535a1d03c7288db44365eab"

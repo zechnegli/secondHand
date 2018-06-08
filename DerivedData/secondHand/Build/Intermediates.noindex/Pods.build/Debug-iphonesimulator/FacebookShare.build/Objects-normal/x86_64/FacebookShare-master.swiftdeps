@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
 options: "2f2a6fcd0b1a3e886e6be5f5511bc5b0"
-build_time: [1525043077, 884163000]
+build_time: [1525204501, 218068000]
 inputs:
   "/Users/zecheng/iosDevelop/secondHand/Pods/FacebookShare/Sources/Share/Dialogs/AppInvite/AppInvite.DeliveryMethod.swift": [1525043061, 0]
   "/Users/zecheng/iosDevelop/secondHand/Pods/FacebookShare/Sources/Share/Dialogs/AppInvite/AppInvite.Dialog.swift": [1525043061, 0]

@@ -5,8 +5,9 @@
 	<string>GoogleMobileAds</string>
 	<string>FirebasePerformance</string>
 	<string>CommonCrypto</string>
-	<string>SafariServices</string>
 	<string>FirebaseDynamicLinks</string>
+	<string>SafariServices</string>
+	<string>SwiftKeychainWrapper</string>
 	<string>AudioToolbox</string>
 	<string>objc</string>
 	<string>FacebookCore</string>
@@ -18,39 +19,40 @@
 	<string>MobileCoreServices</string>
 	<string>sys</string>
 	<string>GTMSessionFetcherIOS</string>
+	<string>GTMSessionFetcher</string>
 	<string>Social</string>
 	<string>CoreTelephony</string>
-	<string>GTMSessionFetcher</string>
 	<string>FirebaseInstanceID</string>
 	<string>StoreKit</string>
 	<string>FirebaseFirestore</string>
 	<string>AdSupport</string>
-	<string>Accounts</string>
 	<string>FirebaseDatabase</string>
 	<string>FBSDKShareKit</string>
+	<string>Accounts</string>
 	<string>FirebaseRemoteConfig</string>
 	<string>libkern</string>
 	<string>CoreText</string>
+	<string>WebKit</string>
 	<string>Crashlytics</string>
-	<string>WatchKit</string>
-	<string>Foundation</string>
-	<string>Fabric</string>
 	<string>FirebaseCrash</string>
-	<string>GoogleSignIn</string>
-	<string>FirebaseAppIndexing</string>
-	<string>FBSDKLoginKit</string>
-	<string>QuartzCore</string>
+	<string>Foundation</string>
 	<string>Security</string>
+	<string>QuartzCore</string>
+	<string>Fabric</string>
+	<string>GoogleSignIn</string>
+	<string>FBSDKLoginKit</string>
+	<string>FirebaseAppIndexing</string>
+	<string>WatchKit</string>
 	<string>FirebaseInvites</string>
 	<string>ObjectiveC</string>
 	<string>AssetsLibrary</string>
 	<string>FBSDKCoreKit</string>
-	<string>SystemConfiguration</string>
 	<string>FirebaseStorage</string>
-	<string>FirebaseAnalytics</string>
 	<string>FirebaseFunctions</string>
+	<string>FirebaseAnalytics</string>
+	<string>CoreGraphics</string>
 	<string>GTMSessionFetcherOSX</string>
 	<string>UIKit</string>
-	<string>CoreGraphics</string>
+	<string>SystemConfiguration</string>
 </array>
 </plist>

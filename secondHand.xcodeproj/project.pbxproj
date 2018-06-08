@@ -13,8 +13,20 @@
 		C92ADB79208C33E2009E7B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92ADB78208C33E2009E7B9E /* Assets.xcassets */; };
 		C92ADB7C208C33E2009E7B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92ADB7A208C33E2009E7B9E /* LaunchScreen.storyboard */; };
 		C92ADB84208C3406009E7B9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C92ADB83208C3405009E7B9E /* GoogleService-Info.plist */; };
+		C93B1F1620B3D85100704BA7 /* signInBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C93B1F1520B3D85100704BA7 /* signInBG.jpg */; };
+		C93B1F1820B3D9E000704BA7 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93B1F1720B3D9E000704BA7 /* PasswordTextField.swift */; };
+		C93B1F1A20B3DCCA00704BA7 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93B1F1920B3DCCA00704BA7 /* EmailTextField.swift */; };
 		C947DF9D2093CA1F005F832B /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947DF9C2093CA1F005F832B /* GoogleSignInButton.swift */; };
 		C947DFA02093D71E005F832B /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947DF9F2093D71E005F832B /* FirebaseReference.swift */; };
+		C947DFA220990136005F832B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947DFA120990136005F832B /* Constant.swift */; };
+		C960FEB620BF9A9800D8BCEB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960FEB520BF9A9800D8BCEB /* HomeViewController.swift */; };
+		C960FEB820C2789B00D8BCEB /* HomeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960FEB720C2789B00D8BCEB /* HomeTableTableViewController.swift */; };
+		C976CAC220B9410A00B83346 /* listIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C976CAC120B9410A00B83346 /* listIcon.png */; };
+		C976CAC420B9423000B83346 /* SearchBarHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976CAC320B9423000B83346 /* SearchBarHomeScreen.swift */; };
+		C976CAC620BB98AD00B83346 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976CAC520BB98AC00B83346 /* PageViewController.swift */; };
+		C976CAC820BBA62D00B83346 /* AdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C976CAC720BBA62D00B83346 /* AdsViewController.swift */; };
+		C976CACA20BBAEDD00B83346 /* 404.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C976CAC920BBAEDC00B83346 /* 404.jpg */; };
+		C9CADE6420B13AF90083B552 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CADE6320B13AF90083B552 /* SignUpController.swift */; };
 		DB7CCB44EC60216D35A82F29 /* Pods_secondHand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1863A4D50E80D32B994D76 /* Pods_secondHand.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +41,20 @@
 		C92ADB7B208C33E2009E7B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C92ADB7D208C33E2009E7B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C92ADB83208C3405009E7B9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C93B1F1520B3D85100704BA7 /* signInBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = signInBG.jpg; sourceTree = "<group>"; };
+		C93B1F1720B3D9E000704BA7 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		C93B1F1920B3DCCA00704BA7 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		C947DF9C2093CA1F005F832B /* GoogleSignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
 		C947DF9F2093D71E005F832B /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		C947DFA120990136005F832B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C960FEB520BF9A9800D8BCEB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C960FEB720C2789B00D8BCEB /* HomeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewController.swift; sourceTree = "<group>"; };
+		C976CAC120B9410A00B83346 /* listIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listIcon.png; sourceTree = "<group>"; };
+		C976CAC320B9423000B83346 /* SearchBarHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarHomeScreen.swift; sourceTree = "<group>"; };
+		C976CAC520BB98AC00B83346 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		C976CAC720BBA62D00B83346 /* AdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsViewController.swift; sourceTree = "<group>"; };
+		C976CAC920BBAEDC00B83346 /* 404.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 404.jpg; sourceTree = "<group>"; };
+		C9CADE6320B13AF90083B552 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		FAA3BFAC4FC35F4439925C72 /* Pods-secondHand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-secondHand.release.xcconfig"; path = "Pods/Target Support Files/Pods-secondHand/Pods-secondHand.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +109,7 @@
 		C92ADB70208C33E1009E7B9E /* secondHand */ = {
 			isa = PBXGroup;
 			children = (
+				C93B1F1420B3D83F00704BA7 /* Resources */,
 				C947DF9E2093D704005F832B /* Constants */,
 				C947DF9B2093C770005F832B /* View */,
 				C947DF9A2093C768005F832B /* controller */,
@@ -98,6 +123,16 @@
 			path = secondHand;
 			sourceTree = "<group>";
 		};
+		C93B1F1420B3D83F00704BA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C976CAC920BBAEDC00B83346 /* 404.jpg */,
+				C976CAC120B9410A00B83346 /* listIcon.png */,
+				C93B1F1520B3D85100704BA7 /* signInBG.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C947DF992093C760005F832B /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +144,11 @@
 			isa = PBXGroup;
 			children = (
 				C92ADB73208C33E1009E7B9E /* LoginInController.swift */,
+				C9CADE6320B13AF90083B552 /* SignUpController.swift */,
+				C976CAC520BB98AC00B83346 /* PageViewController.swift */,
+				C976CAC720BBA62D00B83346 /* AdsViewController.swift */,
+				C960FEB520BF9A9800D8BCEB /* HomeViewController.swift */,
+				C960FEB720C2789B00D8BCEB /* HomeTableTableViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -117,6 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				C947DF9C2093CA1F005F832B /* GoogleSignInButton.swift */,
+				C93B1F1720B3D9E000704BA7 /* PasswordTextField.swift */,
+				C93B1F1920B3DCCA00704BA7 /* EmailTextField.swift */,
+				C976CAC320B9423000B83346 /* SearchBarHomeScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				C947DF9F2093D71E005F832B /* FirebaseReference.swift */,
+				C947DFA120990136005F832B /* Constant.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -192,7 +236,10 @@
 			files = (
 				C92ADB7C208C33E2009E7B9E /* LaunchScreen.storyboard in Resources */,
 				C92ADB84208C3406009E7B9E /* GoogleService-Info.plist in Resources */,
+				C976CAC220B9410A00B83346 /* listIcon.png in Resources */,
+				C93B1F1620B3D85100704BA7 /* signInBG.jpg in Resources */,
 				C92ADB79208C33E2009E7B9E /* Assets.xcassets in Resources */,
+				C976CACA20BBAEDD00B83346 /* 404.jpg in Resources */,
 				C92ADB77208C33E1009E7B9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +282,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -250,6 +298,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -283,10 +332,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93B1F1A20B3DCCA00704BA7 /* EmailTextField.swift in Sources */,
+				C960FEB820C2789B00D8BCEB /* HomeTableTableViewController.swift in Sources */,
+				C976CAC620BB98AD00B83346 /* PageViewController.swift in Sources */,
+				C976CAC820BBA62D00B83346 /* AdsViewController.swift in Sources */,
 				C92ADB74208C33E1009E7B9E /* LoginInController.swift in Sources */,
+				C976CAC420B9423000B83346 /* SearchBarHomeScreen.swift in Sources */,
 				C947DF9D2093CA1F005F832B /* GoogleSignInButton.swift in Sources */,
+				C947DFA220990136005F832B /* Constant.swift in Sources */,
+				C93B1F1820B3D9E000704BA7 /* PasswordTextField.swift in Sources */,
 				C92ADB72208C33E1009E7B9E /* AppDelegate.swift in Sources */,
 				C947DFA02093D71E005F832B /* FirebaseReference.swift in Sources */,
+				C9CADE6420B13AF90083B552 /* SignUpController.swift in Sources */,
+				C960FEB620BF9A9800D8BCEB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +492,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6EGW84ZSH4;
 				INFOPLIST_FILE = secondHand/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zecheng.secondHand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -450,7 +512,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6EGW84ZSH4;
 				INFOPLIST_FILE = secondHand/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zecheng.secondHand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

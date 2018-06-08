@@ -1,8 +1,17 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "a63fa3c361e9a15b538c74ae131726cc"
-build_time: [1525120678, 748420000]
+options: "562320bf1efca441908d4eae2348d120"
+build_time: [1528423282, 129034000]
 inputs:
-  "/Users/zecheng/iosDevelop/secondHand/secondHand/controller/LoginInController.swift": [1525120677, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/View/EmailTextField.swift": [1526965588, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/controller/HomeTableTableViewController.swift": [1527922971, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/controller/PageViewController.swift": [1528253239, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/controller/AdsViewController.swift": [1528422512, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/controller/LoginInController.swift": [1526947193, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/View/SearchBarHomeScreen.swift": [1527472132, 0]
   "/Users/zecheng/iosDevelop/secondHand/secondHand/View/GoogleSignInButton.swift": [1524864164, 0]
-  "/Users/zecheng/iosDevelop/secondHand/secondHand/AppDelegate.swift": [1525042837, 0]
-  "/Users/zecheng/iosDevelop/secondHand/secondHand/Constants/FirebaseReference.swift": [1524871917, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/Constants/Constant.swift": [1525205441, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/View/PasswordTextField.swift": [1527252498, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/AppDelegate.swift": [1525208559, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/Constants/FirebaseReference.swift": [1525205487, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/controller/SignUpController.swift": [1526963017, 0]
+  "/Users/zecheng/iosDevelop/secondHand/secondHand/controller/HomeViewController.swift": [1528423281, 0]

@@ -816,6 +816,38 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftKeychainWrapper-Swift.h",
+          'external-contents': "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftKeychainWrapper-umbrella.h",
+          'external-contents': "/Users/zecheng/iosDevelop/secondHand/Pods/Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftKeychainWrapper.h",
+          'external-contents': "/Users/zecheng/iosDevelop/secondHand/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/SwiftKeychainWrapper.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftKeychainWrapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/leveldb-library/leveldb.framework/Headers",
       'contents': [
         {

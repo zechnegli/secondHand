@@ -10,6 +10,7 @@ dependencies: \
   /Users/zecheng/iosDevelop/secondHand/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h \
   /Users/zecheng/iosDevelop/secondHand/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h \
   /Users/zecheng/iosDevelop/secondHand/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenCaching.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenExpirer.h \
   /Users/zecheng/iosDevelop/secondHand/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h \
   /Users/zecheng/iosDevelop/secondHand/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAppEvents.h \
   /Users/zecheng/iosDevelop/secondHand/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h \
