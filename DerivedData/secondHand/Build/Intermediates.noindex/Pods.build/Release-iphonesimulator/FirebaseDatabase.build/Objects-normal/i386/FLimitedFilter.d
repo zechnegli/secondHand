@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FLimitedFilter.m \
+  /Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/FirebaseDatabase.build/module.modulemap \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FLimitedFilter.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FNodeFilter.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FChildChangeAccumulator.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/FIndex.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/FRangedFilter.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/FNamedNode.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FNode.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FPath.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FTypedefs_Private.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FEmptyNode.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FChildrenNode.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/FTypedefs.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FImmutableSortedDictionary.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FCompleteChildSource.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/View/FChange.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseReference.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseQuery.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataEventType.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataSnapshot.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabase.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRMutableData.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRTransactionResult.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRServerValue.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FIndexedNode.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FTreeSortedDictionary.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBNode.h

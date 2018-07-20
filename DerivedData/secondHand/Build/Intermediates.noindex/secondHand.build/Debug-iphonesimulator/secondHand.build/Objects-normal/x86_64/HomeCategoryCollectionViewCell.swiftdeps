@@ -1,0 +1,947 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CategoryCollectionViewCell"
+provides-nominal:
+- "10secondHand26CategoryCollectionViewCellC"
+- "10secondHand26CategoryCollectionViewCellC0cdeF8ConstantV"
+provides-member:
+- ["10secondHand26CategoryCollectionViewCellC", ""]
+- ["10secondHand26CategoryCollectionViewCellC0cdeF8ConstantV", ""]
+- ["10secondHand26CategoryCollectionViewCellC", "CategoryCollectionViewCellConstant"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "/"
+- "AssignmentPrecedence"
+- "CGFloat"
+- !private "CGRect"
+- "CategoryCollectionViewCell"
+- "String"
+- "StringLiteralType"
+- "UICollectionViewCell"
+- !private "UIColor"
+- "UIImage"
+- "UIImageView"
+- "UILabel"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "CGRect"]
+- !private ["So15CALayerDelegateP", "CategoryCollectionViewCellConstant"]
+- !private ["So15CALayerDelegateP", "UIColor"]
+- !private ["So15CALayerDelegateP", "UIImageView"]
+- !private ["So15CALayerDelegateP", "UILabel"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "categoryLabel"]
+- !private ["So15CALayerDelegateP", "categorylabelHeight"]
+- !private ["So15CALayerDelegateP", "contentView"]
+- !private ["So15CALayerDelegateP", "description"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So15CALayerDelegateP", "imageView"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "setupCategoryLabel"]
+- !private ["So15CALayerDelegateP", "setupImageView"]
+- !private ["So15CALayerDelegateP", "snp"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["SC6CGRectV", "height"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGRectV", "width"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "CategoryCollectionViewCellConstant"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIImageView"]
+- !private ["s7CVarArgP", "UILabel"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "blue"]
+- !private ["s7CVarArgP", "brown"]
+- !private ["s7CVarArgP", "categoryLabel"]
+- !private ["s7CVarArgP", "categorylabelHeight"]
+- !private ["s7CVarArgP", "contentView"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imageView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setupCategoryLabel"]
+- !private ["s7CVarArgP", "setupImageView"]
+- !private ["s7CVarArgP", "snp"]
+- !private ["s7CVarArgP", "text"]
+- ["10secondHand26CategoryCollectionViewCellC", "CGFloat"]
+- !private ["10secondHand26CategoryCollectionViewCellC", "CGRect"]
+- ["10secondHand26CategoryCollectionViewCellC", "CategoryCollectionViewCellConstant"]
+- ["10secondHand26CategoryCollectionViewCellC", "String"]
+- !private ["10secondHand26CategoryCollectionViewCellC", "UIColor"]
+- ["10secondHand26CategoryCollectionViewCellC", "UIImage"]
+- ["10secondHand26CategoryCollectionViewCellC", "UIImageView"]
+- ["10secondHand26CategoryCollectionViewCellC", "UILabel"]
+- ["10secondHand26CategoryCollectionViewCellC", "categoryLabel"]
+- ["10secondHand26CategoryCollectionViewCellC", "categorylabelHeight"]
+- !private ["10secondHand26CategoryCollectionViewCellC", "contentView"]
+- ["10secondHand26CategoryCollectionViewCellC", "deinit"]
+- !private ["10secondHand26CategoryCollectionViewCellC", "description"]
+- ["10secondHand26CategoryCollectionViewCellC", "imageView"]
+- ["10secondHand26CategoryCollectionViewCellC", "init"]
+- !private ["10secondHand26CategoryCollectionViewCellC", "setupCategoryLabel"]
+- !private ["10secondHand26CategoryCollectionViewCellC", "setupImageView"]
+- ["10secondHand26CategoryCollectionViewCellC", "updateCellUI"]
+- ["10secondHand26CategoryCollectionViewCellC0cdeF8ConstantV", "CGFloat"]
+- ["10secondHand26CategoryCollectionViewCellC0cdeF8ConstantV", "describtionLabelBottomConstrain"]
+- ["10secondHand26CategoryCollectionViewCellC0cdeF8ConstantV", "describtionLabelLeftConstrain"]
+- ["10secondHand26CategoryCollectionViewCellC0cdeF8ConstantV", "describtionLabelRightConstrain"]
+- ["10secondHand26CategoryCollectionViewCellC0cdeF8ConstantV", "describtionLabelTopConstrain"]
+- ["10secondHand26CategoryCollectionViewCellC0cdeF8ConstantV", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["7SnapKit23ConstraintAttributesDSLP", "bottom"]
+- !private ["7SnapKit23ConstraintAttributesDSLP", "left"]
+- !private ["7SnapKit23ConstraintAttributesDSLP", "makeConstraints"]
+- !private ["7SnapKit23ConstraintAttributesDSLP", "right"]
+- !private ["7SnapKit28ConstraintBasicAttributesDSLP", "bottom"]
+- !private ["7SnapKit28ConstraintBasicAttributesDSLP", "left"]
+- !private ["7SnapKit28ConstraintBasicAttributesDSLP", "makeConstraints"]
+- !private ["7SnapKit28ConstraintBasicAttributesDSLP", "right"]
+- !private ["7SnapKit13ConstraintDSLP", "bottom"]
+- !private ["7SnapKit13ConstraintDSLP", "left"]
+- !private ["7SnapKit13ConstraintDSLP", "makeConstraints"]
+- !private ["7SnapKit13ConstraintDSLP", "right"]
+- !private ["7SnapKit15ConstraintMakerC", "bottom"]
+- !private ["7SnapKit15ConstraintMakerC", "left"]
+- !private ["7SnapKit15ConstraintMakerC", "right"]
+- !private ["7SnapKit15ConstraintMakerC", "top"]
+- !private ["7SnapKit23ConstraintMakerEditableC", "offset"]
+- !private ["7SnapKit25ConstraintMakerExtendableC", "equalTo"]
+- !private ["7SnapKit26ConstraintMakerFinalizableC", "offset"]
+- !private ["7SnapKit27ConstraintMakerPriortizableC", "offset"]
+- !private ["7SnapKit24ConstraintMakerRelatableC", "equalTo"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "CGRect"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "CategoryCollectionViewCellConstant"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UIColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UIImageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UILabel"]
+- ["7SnapKit25ConstraintRelatableTargetP", ""]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "backgroundColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "categoryLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "categorylabelHeight"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "contentView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "description"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "frame"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "image"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "imageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "setupCategoryLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "setupImageView"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "snp"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "text"]
+- !private ["7SnapKit17ConstraintViewDSLV", "bottom"]
+- !private ["7SnapKit17ConstraintViewDSLV", "left"]
+- !private ["7SnapKit17ConstraintViewDSLV", "makeConstraints"]
+- !private ["7SnapKit17ConstraintViewDSLV", "right"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "CategoryCollectionViewCellConstant"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "UILabel"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "blue"]
+- !private ["s28CustomDebugStringConvertibleP", "brown"]
+- !private ["s28CustomDebugStringConvertibleP", "categoryLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "categorylabelHeight"]
+- !private ["s28CustomDebugStringConvertibleP", "contentView"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setupCategoryLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "setupImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "snp"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "CategoryCollectionViewCellConstant"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIImageView"]
+- !private ["s23CustomStringConvertibleP", "UILabel"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "blue"]
+- !private ["s23CustomStringConvertibleP", "brown"]
+- !private ["s23CustomStringConvertibleP", "categoryLabel"]
+- !private ["s23CustomStringConvertibleP", "categorylabelHeight"]
+- !private ["s23CustomStringConvertibleP", "contentView"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setupCategoryLabel"]
+- !private ["s23CustomStringConvertibleP", "setupImageView"]
+- !private ["s23CustomStringConvertibleP", "snp"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "CategoryCollectionViewCellConstant"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIImageView"]
+- !private ["s9EquatableP", "UILabel"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "blue"]
+- !private ["s9EquatableP", "brown"]
+- !private ["s9EquatableP", "categoryLabel"]
+- !private ["s9EquatableP", "categorylabelHeight"]
+- !private ["s9EquatableP", "contentView"]
+- !private ["s9EquatableP", "description"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "imageView"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "setupCategoryLabel"]
+- !private ["s9EquatableP", "setupImageView"]
+- !private ["s9EquatableP", "snp"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "width"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "CategoryCollectionViewCellConstant"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIImageView"]
+- !private ["s8HashableP", "UILabel"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "blue"]
+- !private ["s8HashableP", "brown"]
+- !private ["s8HashableP", "categoryLabel"]
+- !private ["s8HashableP", "categorylabelHeight"]
+- !private ["s8HashableP", "contentView"]
+- !private ["s8HashableP", "description"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "imageView"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "setupCategoryLabel"]
+- !private ["s8HashableP", "setupImageView"]
+- !private ["s8HashableP", "snp"]
+- !private ["s8HashableP", "text"]
+- !private ["7SnapKit20LayoutConstraintItemP", "CGRect"]
+- !private ["7SnapKit20LayoutConstraintItemP", "CategoryCollectionViewCellConstant"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UIColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UIImageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UILabel"]
+- ["7SnapKit20LayoutConstraintItemP", ""]
+- !private ["7SnapKit20LayoutConstraintItemP", "addSubview"]
+- !private ["7SnapKit20LayoutConstraintItemP", "backgroundColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "categoryLabel"]
+- !private ["7SnapKit20LayoutConstraintItemP", "categorylabelHeight"]
+- !private ["7SnapKit20LayoutConstraintItemP", "contentView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "description"]
+- !private ["7SnapKit20LayoutConstraintItemP", "frame"]
+- !private ["7SnapKit20LayoutConstraintItemP", "image"]
+- !private ["7SnapKit20LayoutConstraintItemP", "imageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "setupCategoryLabel"]
+- !private ["7SnapKit20LayoutConstraintItemP", "setupImageView"]
+- !private ["7SnapKit20LayoutConstraintItemP", "snp"]
+- !private ["7SnapKit20LayoutConstraintItemP", "text"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "CategoryCollectionViewCellConstant"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIImageView"]
+- !private ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "blue"]
+- !private ["So8NSCodingP", "brown"]
+- !private ["So8NSCodingP", "categoryLabel"]
+- !private ["So8NSCodingP", "categorylabelHeight"]
+- !private ["So8NSCodingP", "contentView"]
+- !private ["So8NSCodingP", "description"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "imageView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setupCategoryLabel"]
+- !private ["So8NSCodingP", "setupImageView"]
+- !private ["So8NSCodingP", "snp"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So9NSCopyingP", "blue"]
+- !private ["So9NSCopyingP", "brown"]
+- !private ["So21NSItemProviderReadingP", "blue"]
+- !private ["So21NSItemProviderReadingP", "brown"]
+- !private ["So21NSItemProviderWritingP", "blue"]
+- !private ["So21NSItemProviderWritingP", "brown"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "CategoryCollectionViewCellConstant"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "blue"]
+- !private ["So8NSObjectC", "brown"]
+- ["So8NSObjectC", "categoryLabel"]
+- ["So8NSObjectC", "categorylabelHeight"]
+- !private ["So8NSObjectC", "contentView"]
+- !private ["So8NSObjectC", "description"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "setupCategoryLabel"]
+- ["So8NSObjectC", "setupImageView"]
+- !private ["So8NSObjectC", "snp"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "updateCellUI"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "CategoryCollectionViewCellConstant"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIImageView"]
+- !private ["So16NSObjectProtocolP", "UILabel"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "blue"]
+- !private ["So16NSObjectProtocolP", "brown"]
+- !private ["So16NSObjectProtocolP", "categoryLabel"]
+- !private ["So16NSObjectProtocolP", "categorylabelHeight"]
+- !private ["So16NSObjectProtocolP", "contentView"]
+- !private ["So16NSObjectProtocolP", "description"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "imageView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "setupCategoryLabel"]
+- !private ["So16NSObjectProtocolP", "setupImageView"]
+- !private ["So16NSObjectProtocolP", "snp"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So14NSSecureCodingP", "blue"]
+- !private ["So14NSSecureCodingP", "brown"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "snp"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "CategoryCollectionViewCellConstant"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "UILabel"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "categoryLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "categorylabelHeight"]
+- !private ["So29UIAccessibilityIdentificationP", "contentView"]
+- !private ["So29UIAccessibilityIdentificationP", "description"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "imageView"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "setupCategoryLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "setupImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "snp"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "CGRect"]
+- !private ["So12UIAppearanceP", "CategoryCollectionViewCellConstant"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- !private ["So12UIAppearanceP", "UIImageView"]
+- !private ["So12UIAppearanceP", "UILabel"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "categoryLabel"]
+- !private ["So12UIAppearanceP", "categorylabelHeight"]
+- !private ["So12UIAppearanceP", "contentView"]
+- !private ["So12UIAppearanceP", "description"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So12UIAppearanceP", "imageView"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "setupCategoryLabel"]
+- !private ["So12UIAppearanceP", "setupImageView"]
+- !private ["So12UIAppearanceP", "snp"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "CategoryCollectionViewCellConstant"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIImageView"]
+- !private ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "categoryLabel"]
+- !private ["So21UIAppearanceContainerP", "categorylabelHeight"]
+- !private ["So21UIAppearanceContainerP", "contentView"]
+- !private ["So21UIAppearanceContainerP", "description"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So21UIAppearanceContainerP", "imageView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "setupCategoryLabel"]
+- !private ["So21UIAppearanceContainerP", "setupImageView"]
+- !private ["So21UIAppearanceContainerP", "snp"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So24UICollectionReusableViewC", "CGFloat"]
+- !private ["So24UICollectionReusableViewC", "CGRect"]
+- !private ["So24UICollectionReusableViewC", "CategoryCollectionViewCellConstant"]
+- ["So24UICollectionReusableViewC", "String"]
+- !private ["So24UICollectionReusableViewC", "UIColor"]
+- ["So24UICollectionReusableViewC", "UIImage"]
+- ["So24UICollectionReusableViewC", "UIImageView"]
+- ["So24UICollectionReusableViewC", "UILabel"]
+- ["So24UICollectionReusableViewC", "categoryLabel"]
+- ["So24UICollectionReusableViewC", "categorylabelHeight"]
+- !private ["So24UICollectionReusableViewC", "contentView"]
+- !private ["So24UICollectionReusableViewC", "description"]
+- ["So24UICollectionReusableViewC", "imageView"]
+- ["So24UICollectionReusableViewC", "init"]
+- ["So24UICollectionReusableViewC", "setupCategoryLabel"]
+- ["So24UICollectionReusableViewC", "setupImageView"]
+- ["So24UICollectionReusableViewC", "updateCellUI"]
+- ["So20UICollectionViewCellC", "CGFloat"]
+- !private ["So20UICollectionViewCellC", "CGRect"]
+- !private ["So20UICollectionViewCellC", "CategoryCollectionViewCellConstant"]
+- ["So20UICollectionViewCellC", "String"]
+- !private ["So20UICollectionViewCellC", "UIColor"]
+- ["So20UICollectionViewCellC", "UIImage"]
+- ["So20UICollectionViewCellC", "UIImageView"]
+- ["So20UICollectionViewCellC", "UILabel"]
+- ["So20UICollectionViewCellC", ""]
+- ["So20UICollectionViewCellC", "categoryLabel"]
+- ["So20UICollectionViewCellC", "categorylabelHeight"]
+- !private ["So20UICollectionViewCellC", "contentView"]
+- !private ["So20UICollectionViewCellC", "description"]
+- ["So20UICollectionViewCellC", "imageView"]
+- ["So20UICollectionViewCellC", "init"]
+- ["So20UICollectionViewCellC", "setupCategoryLabel"]
+- ["So20UICollectionViewCellC", "setupImageView"]
+- ["So20UICollectionViewCellC", "updateCellUI"]
+- !private ["So7UIColorC", "blue"]
+- !private ["So7UIColorC", "brown"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "backgroundColor"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "init"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "snp"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "CGRect"]
+- !private ["So17UICoordinateSpaceP", "CategoryCollectionViewCellConstant"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- !private ["So17UICoordinateSpaceP", "UIImageView"]
+- !private ["So17UICoordinateSpaceP", "UILabel"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "categoryLabel"]
+- !private ["So17UICoordinateSpaceP", "categorylabelHeight"]
+- !private ["So17UICoordinateSpaceP", "contentView"]
+- !private ["So17UICoordinateSpaceP", "description"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So17UICoordinateSpaceP", "imageView"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "setupCategoryLabel"]
+- !private ["So17UICoordinateSpaceP", "setupImageView"]
+- !private ["So17UICoordinateSpaceP", "snp"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "CGRect"]
+- !private ["So13UIDynamicItemP", "CategoryCollectionViewCellConstant"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- !private ["So13UIDynamicItemP", "UIImageView"]
+- !private ["So13UIDynamicItemP", "UILabel"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "categoryLabel"]
+- !private ["So13UIDynamicItemP", "categorylabelHeight"]
+- !private ["So13UIDynamicItemP", "contentView"]
+- !private ["So13UIDynamicItemP", "description"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So13UIDynamicItemP", "imageView"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "setupCategoryLabel"]
+- !private ["So13UIDynamicItemP", "setupImageView"]
+- !private ["So13UIDynamicItemP", "snp"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "CategoryCollectionViewCellConstant"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIImageView"]
+- !private ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "categoryLabel"]
+- !private ["So18UIFocusEnvironmentP", "categorylabelHeight"]
+- !private ["So18UIFocusEnvironmentP", "contentView"]
+- !private ["So18UIFocusEnvironmentP", "description"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So18UIFocusEnvironmentP", "imageView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "setupCategoryLabel"]
+- !private ["So18UIFocusEnvironmentP", "setupImageView"]
+- !private ["So18UIFocusEnvironmentP", "snp"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "CGRect"]
+- !private ["So11UIFocusItemP", "CategoryCollectionViewCellConstant"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "UIImageView"]
+- !private ["So11UIFocusItemP", "UILabel"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "categoryLabel"]
+- !private ["So11UIFocusItemP", "categorylabelHeight"]
+- !private ["So11UIFocusItemP", "contentView"]
+- !private ["So11UIFocusItemP", "description"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So11UIFocusItemP", "imageView"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "setupCategoryLabel"]
+- !private ["So11UIFocusItemP", "setupImageView"]
+- !private ["So11UIFocusItemP", "snp"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIImageViewC", "backgroundColor"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So11UIImageViewC", "init"]
+- !private ["So11UIImageViewC", "snp"]
+- !private ["So7UILabelC", "backgroundColor"]
+- !private ["So7UILabelC", "init"]
+- !private ["So7UILabelC", "snp"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "CategoryCollectionViewCellConstant"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "categoryLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "categorylabelHeight"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentView"]
+- !private ["So30UIPasteConfigurationSupportingP", "description"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupCategoryLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "snp"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "CGFloat"]
+- !private ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "CategoryCollectionViewCellConstant"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "categoryLabel"]
+- ["So11UIResponderC", "categorylabelHeight"]
+- !private ["So11UIResponderC", "contentView"]
+- !private ["So11UIResponderC", "description"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "setupCategoryLabel"]
+- ["So11UIResponderC", "setupImageView"]
+- !private ["So11UIResponderC", "snp"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "updateCellUI"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "CategoryCollectionViewCellConstant"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "categoryLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "categorylabelHeight"]
+- !private ["So30UIResponderStandardEditActionsP", "contentView"]
+- !private ["So30UIResponderStandardEditActionsP", "description"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "imageView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "setupCategoryLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "setupImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "snp"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "CategoryCollectionViewCellConstant"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIImageView"]
+- !private ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "categoryLabel"]
+- !private ["So18UITraitEnvironmentP", "categorylabelHeight"]
+- !private ["So18UITraitEnvironmentP", "contentView"]
+- !private ["So18UITraitEnvironmentP", "description"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So18UITraitEnvironmentP", "imageView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "setupCategoryLabel"]
+- !private ["So18UITraitEnvironmentP", "setupImageView"]
+- !private ["So18UITraitEnvironmentP", "snp"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So6UIViewC", "CGFloat"]
+- !private ["So6UIViewC", "CGRect"]
+- !private ["So6UIViewC", "CategoryCollectionViewCellConstant"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UIImage"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "categoryLabel"]
+- ["So6UIViewC", "categorylabelHeight"]
+- !private ["So6UIViewC", "contentView"]
+- !private ["So6UIViewC", "description"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "imageView"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "setupCategoryLabel"]
+- ["So6UIViewC", "setupImageView"]
+- !private ["So6UIViewC", "snp"]
+- !private ["So6UIViewC", "text"]
+- ["So6UIViewC", "updateCellUI"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CategoryCollectionViewCellConstant"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UILabel"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "categoryLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "categorylabelHeight"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "contentView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "description"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "imageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupCategoryLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupImageView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "snp"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "blue"]
+- !private ["s26_ExpressibleByColorLiteralP", "brown"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CategoryCollectionViewCellConstant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UILabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "blue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "brown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "categoryLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "categorylabelHeight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "description"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupCategoryLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "snp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- "10secondHand26CategoryCollectionViewCellC"
+- "10secondHand26CategoryCollectionViewCellC0cdeF8ConstantV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "7SnapKit23ConstraintAttributesDSLP"
+- !private "7SnapKit28ConstraintBasicAttributesDSLP"
+- !private "7SnapKit13ConstraintDSLP"
+- !private "7SnapKit15ConstraintMakerC"
+- !private "7SnapKit23ConstraintMakerEditableC"
+- !private "7SnapKit25ConstraintMakerExtendableC"
+- !private "7SnapKit26ConstraintMakerFinalizableC"
+- !private "7SnapKit27ConstraintMakerPriortizableC"
+- !private "7SnapKit24ConstraintMakerRelatableC"
+- "7SnapKit25ConstraintRelatableTargetP"
+- !private "7SnapKit17ConstraintViewDSLV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "7SnapKit20LayoutConstraintItemP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So24UICollectionReusableViewC"
+- "So20UICollectionViewCellC"
+- !private "So7UIColorC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "9d8eb0eb06c22e6aabcd95dc2a6fc8c3"

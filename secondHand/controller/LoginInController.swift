@@ -43,7 +43,7 @@ class LoginInController: UIViewController, GIDSignInUIDelegate {
                 } else if let user = user {
                     //store the firebase token
                     print("zecheng logining in firebase with password and acoount succeed")
-                    KeychainWrapper.standard.set(user.uid, forKey: UID)
+                    KeychainWrapper.standard.set(user.user.uid, forKey:Constant().UID)
                 }
                 
             }
@@ -81,7 +81,7 @@ class LoginInController: UIViewController, GIDSignInUIDelegate {
                         print("zecheng logining in firebase with facebook failed ")
                     } else if let user = user {
                         print("zecheng logining in firebase with facebook succeed ")
-                        KeychainWrapper.standard.set(user.uid, forKey: UID)
+                        KeychainWrapper.standard.set(user.uid, forKey: Constant().UID)
                         
                     }
                 })

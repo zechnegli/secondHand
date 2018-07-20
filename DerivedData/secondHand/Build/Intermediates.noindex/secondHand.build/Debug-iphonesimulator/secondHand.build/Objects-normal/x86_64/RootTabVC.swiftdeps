@@ -1,0 +1,718 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RootTabVC"
+provides-nominal:
+- "10secondHand9RootTabVCC"
+provides-member:
+- ["10secondHand9RootTabVCC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "ChatVC"
+- !private "GroupVC"
+- !private "HomeViewController"
+- "RootTabVC"
+- !private "StringLiteralType"
+- !private "UIImage"
+- "UINavigationController"
+- "UITabBarController"
+- !private "UITabBarItem"
+- !private "UserVC"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "ChatVC"]
+- !private ["s7CVarArgP", "GroupVC"]
+- !private ["s7CVarArgP", "HomeViewController"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UINavigationController"]
+- !private ["s7CVarArgP", "UITabBarItem"]
+- !private ["s7CVarArgP", "UserVC"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "controllers"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setupChatNavigationVC"]
+- !private ["s7CVarArgP", "setupGroupNavigationVC"]
+- !private ["s7CVarArgP", "setupHomeNavigationVC"]
+- !private ["s7CVarArgP", "setupUserNAvigationVC"]
+- !private ["s7CVarArgP", "tabBarController"]
+- !private ["s7CVarArgP", "tabBarItem"]
+- !private ["s7CVarArgP", "viewControllers"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["10secondHand6ChatVCC", "init"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ChatVC"]
+- !private ["s28CustomDebugStringConvertibleP", "GroupVC"]
+- !private ["s28CustomDebugStringConvertibleP", "HomeViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "UITabBarItem"]
+- !private ["s28CustomDebugStringConvertibleP", "UserVC"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "controllers"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setupChatNavigationVC"]
+- !private ["s28CustomDebugStringConvertibleP", "setupGroupNavigationVC"]
+- !private ["s28CustomDebugStringConvertibleP", "setupHomeNavigationVC"]
+- !private ["s28CustomDebugStringConvertibleP", "setupUserNAvigationVC"]
+- !private ["s28CustomDebugStringConvertibleP", "tabBarController"]
+- !private ["s28CustomDebugStringConvertibleP", "tabBarItem"]
+- !private ["s28CustomDebugStringConvertibleP", "viewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "ChatVC"]
+- !private ["s23CustomStringConvertibleP", "GroupVC"]
+- !private ["s23CustomStringConvertibleP", "HomeViewController"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UINavigationController"]
+- !private ["s23CustomStringConvertibleP", "UITabBarItem"]
+- !private ["s23CustomStringConvertibleP", "UserVC"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "controllers"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setupChatNavigationVC"]
+- !private ["s23CustomStringConvertibleP", "setupGroupNavigationVC"]
+- !private ["s23CustomStringConvertibleP", "setupHomeNavigationVC"]
+- !private ["s23CustomStringConvertibleP", "setupUserNAvigationVC"]
+- !private ["s23CustomStringConvertibleP", "tabBarController"]
+- !private ["s23CustomStringConvertibleP", "tabBarItem"]
+- !private ["s23CustomStringConvertibleP", "viewControllers"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "ChatVC"]
+- !private ["s9EquatableP", "GroupVC"]
+- !private ["s9EquatableP", "HomeViewController"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "UINavigationController"]
+- !private ["s9EquatableP", "UITabBarItem"]
+- !private ["s9EquatableP", "UserVC"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "controllers"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "setupChatNavigationVC"]
+- !private ["s9EquatableP", "setupGroupNavigationVC"]
+- !private ["s9EquatableP", "setupHomeNavigationVC"]
+- !private ["s9EquatableP", "setupUserNAvigationVC"]
+- !private ["s9EquatableP", "tabBarController"]
+- !private ["s9EquatableP", "tabBarItem"]
+- !private ["s9EquatableP", "viewControllers"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["10secondHand7GroupVCC", "init"]
+- !private ["s8HashableP", "ChatVC"]
+- !private ["s8HashableP", "GroupVC"]
+- !private ["s8HashableP", "HomeViewController"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "UINavigationController"]
+- !private ["s8HashableP", "UITabBarItem"]
+- !private ["s8HashableP", "UserVC"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "controllers"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "setupChatNavigationVC"]
+- !private ["s8HashableP", "setupGroupNavigationVC"]
+- !private ["s8HashableP", "setupHomeNavigationVC"]
+- !private ["s8HashableP", "setupUserNAvigationVC"]
+- !private ["s8HashableP", "tabBarController"]
+- !private ["s8HashableP", "tabBarItem"]
+- !private ["s8HashableP", "viewControllers"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["10secondHand18HomeViewControllerC", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "ChatVC"]
+- !private ["So8NSCodingP", "GroupVC"]
+- !private ["So8NSCodingP", "HomeViewController"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UINavigationController"]
+- !private ["So8NSCodingP", "UITabBarItem"]
+- !private ["So8NSCodingP", "UserVC"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "controllers"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setupChatNavigationVC"]
+- !private ["So8NSCodingP", "setupGroupNavigationVC"]
+- !private ["So8NSCodingP", "setupHomeNavigationVC"]
+- !private ["So8NSCodingP", "setupUserNAvigationVC"]
+- !private ["So8NSCodingP", "tabBarController"]
+- !private ["So8NSCodingP", "tabBarItem"]
+- !private ["So8NSCodingP", "viewControllers"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "ChatVC"]
+- !private ["So26NSExtensionRequestHandlingP", "GroupVC"]
+- !private ["So26NSExtensionRequestHandlingP", "HomeViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIImage"]
+- !private ["So26NSExtensionRequestHandlingP", "UINavigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "UITabBarItem"]
+- !private ["So26NSExtensionRequestHandlingP", "UserVC"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "controllers"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "setupChatNavigationVC"]
+- !private ["So26NSExtensionRequestHandlingP", "setupGroupNavigationVC"]
+- !private ["So26NSExtensionRequestHandlingP", "setupHomeNavigationVC"]
+- !private ["So26NSExtensionRequestHandlingP", "setupUserNAvigationVC"]
+- !private ["So26NSExtensionRequestHandlingP", "tabBarController"]
+- !private ["So26NSExtensionRequestHandlingP", "tabBarItem"]
+- !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "ChatVC"]
+- !private ["So8NSObjectC", "GroupVC"]
+- !private ["So8NSObjectC", "HomeViewController"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UINavigationController"]
+- !private ["So8NSObjectC", "UITabBarItem"]
+- !private ["So8NSObjectC", "UserVC"]
+- ["So8NSObjectC", "controllers"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "setupChatNavigationVC"]
+- ["So8NSObjectC", "setupGroupNavigationVC"]
+- ["So8NSObjectC", "setupHomeNavigationVC"]
+- ["So8NSObjectC", "setupUserNAvigationVC"]
+- !private ["So8NSObjectC", "tabBarController"]
+- !private ["So8NSObjectC", "tabBarItem"]
+- !private ["So8NSObjectC", "viewControllers"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "ChatVC"]
+- !private ["So16NSObjectProtocolP", "GroupVC"]
+- !private ["So16NSObjectProtocolP", "HomeViewController"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "UINavigationController"]
+- !private ["So16NSObjectProtocolP", "UITabBarItem"]
+- !private ["So16NSObjectProtocolP", "UserVC"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "controllers"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "setupChatNavigationVC"]
+- !private ["So16NSObjectProtocolP", "setupGroupNavigationVC"]
+- !private ["So16NSObjectProtocolP", "setupHomeNavigationVC"]
+- !private ["So16NSObjectProtocolP", "setupUserNAvigationVC"]
+- !private ["So16NSObjectProtocolP", "tabBarController"]
+- !private ["So16NSObjectProtocolP", "tabBarItem"]
+- !private ["So16NSObjectProtocolP", "viewControllers"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10secondHand9RootTabVCC", "ChatVC"]
+- !private ["10secondHand9RootTabVCC", "GroupVC"]
+- !private ["10secondHand9RootTabVCC", "HomeViewController"]
+- !private ["10secondHand9RootTabVCC", "UIImage"]
+- ["10secondHand9RootTabVCC", "UINavigationController"]
+- !private ["10secondHand9RootTabVCC", "UITabBarItem"]
+- !private ["10secondHand9RootTabVCC", "UserVC"]
+- ["10secondHand9RootTabVCC", "controllers"]
+- ["10secondHand9RootTabVCC", "deinit"]
+- ["10secondHand9RootTabVCC", "init"]
+- !private ["10secondHand9RootTabVCC", "setupChatNavigationVC"]
+- !private ["10secondHand9RootTabVCC", "setupGroupNavigationVC"]
+- !private ["10secondHand9RootTabVCC", "setupHomeNavigationVC"]
+- !private ["10secondHand9RootTabVCC", "setupUserNAvigationVC"]
+- !private ["10secondHand9RootTabVCC", "tabBarController"]
+- ["10secondHand9RootTabVCC", "viewDidLoad"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So21UIAppearanceContainerP", "ChatVC"]
+- !private ["So21UIAppearanceContainerP", "GroupVC"]
+- !private ["So21UIAppearanceContainerP", "HomeViewController"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "UINavigationController"]
+- !private ["So21UIAppearanceContainerP", "UITabBarItem"]
+- !private ["So21UIAppearanceContainerP", "UserVC"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "controllers"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "setupChatNavigationVC"]
+- !private ["So21UIAppearanceContainerP", "setupGroupNavigationVC"]
+- !private ["So21UIAppearanceContainerP", "setupHomeNavigationVC"]
+- !private ["So21UIAppearanceContainerP", "setupUserNAvigationVC"]
+- !private ["So21UIAppearanceContainerP", "tabBarController"]
+- !private ["So21UIAppearanceContainerP", "tabBarItem"]
+- !private ["So21UIAppearanceContainerP", "viewControllers"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So9UIBarItemC", "init"]
+- !private ["So24UIBarPositioningDelegateP", "init"]
+- !private ["So18UIContentContainerP", "ChatVC"]
+- !private ["So18UIContentContainerP", "GroupVC"]
+- !private ["So18UIContentContainerP", "HomeViewController"]
+- !private ["So18UIContentContainerP", "UIImage"]
+- !private ["So18UIContentContainerP", "UINavigationController"]
+- !private ["So18UIContentContainerP", "UITabBarItem"]
+- !private ["So18UIContentContainerP", "UserVC"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "controllers"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "setupChatNavigationVC"]
+- !private ["So18UIContentContainerP", "setupGroupNavigationVC"]
+- !private ["So18UIContentContainerP", "setupHomeNavigationVC"]
+- !private ["So18UIContentContainerP", "setupUserNAvigationVC"]
+- !private ["So18UIContentContainerP", "tabBarController"]
+- !private ["So18UIContentContainerP", "tabBarItem"]
+- !private ["So18UIContentContainerP", "viewControllers"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "ChatVC"]
+- !private ["So18UIFocusEnvironmentP", "GroupVC"]
+- !private ["So18UIFocusEnvironmentP", "HomeViewController"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "UINavigationController"]
+- !private ["So18UIFocusEnvironmentP", "UITabBarItem"]
+- !private ["So18UIFocusEnvironmentP", "UserVC"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "controllers"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "setupChatNavigationVC"]
+- !private ["So18UIFocusEnvironmentP", "setupGroupNavigationVC"]
+- !private ["So18UIFocusEnvironmentP", "setupHomeNavigationVC"]
+- !private ["So18UIFocusEnvironmentP", "setupUserNAvigationVC"]
+- !private ["So18UIFocusEnvironmentP", "tabBarController"]
+- !private ["So18UIFocusEnvironmentP", "tabBarItem"]
+- !private ["So18UIFocusEnvironmentP", "viewControllers"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So22UINavigationControllerC", "tabBarItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "ChatVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "GroupVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "HomeViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITabBarItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserVC"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "controllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupChatNavigationVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupGroupNavigationVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupHomeNavigationVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupUserNAvigationVC"]
+- !private ["So30UIPasteConfigurationSupportingP", "tabBarController"]
+- !private ["So30UIPasteConfigurationSupportingP", "tabBarItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "ChatVC"]
+- !private ["So11UIResponderC", "GroupVC"]
+- !private ["So11UIResponderC", "HomeViewController"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UINavigationController"]
+- !private ["So11UIResponderC", "UITabBarItem"]
+- !private ["So11UIResponderC", "UserVC"]
+- ["So11UIResponderC", "controllers"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "setupChatNavigationVC"]
+- ["So11UIResponderC", "setupGroupNavigationVC"]
+- ["So11UIResponderC", "setupHomeNavigationVC"]
+- ["So11UIResponderC", "setupUserNAvigationVC"]
+- !private ["So11UIResponderC", "tabBarController"]
+- !private ["So11UIResponderC", "tabBarItem"]
+- !private ["So11UIResponderC", "viewControllers"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "ChatVC"]
+- !private ["So30UIResponderStandardEditActionsP", "GroupVC"]
+- !private ["So30UIResponderStandardEditActionsP", "HomeViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "UITabBarItem"]
+- !private ["So30UIResponderStandardEditActionsP", "UserVC"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "controllers"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "setupChatNavigationVC"]
+- !private ["So30UIResponderStandardEditActionsP", "setupGroupNavigationVC"]
+- !private ["So30UIResponderStandardEditActionsP", "setupHomeNavigationVC"]
+- !private ["So30UIResponderStandardEditActionsP", "setupUserNAvigationVC"]
+- !private ["So30UIResponderStandardEditActionsP", "tabBarController"]
+- !private ["So30UIResponderStandardEditActionsP", "tabBarItem"]
+- !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So19UISearchBarDelegateP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "ChatVC"]
+- !private ["So16UIStateRestoringP", "GroupVC"]
+- !private ["So16UIStateRestoringP", "HomeViewController"]
+- !private ["So16UIStateRestoringP", "UIImage"]
+- !private ["So16UIStateRestoringP", "UINavigationController"]
+- !private ["So16UIStateRestoringP", "UITabBarItem"]
+- !private ["So16UIStateRestoringP", "UserVC"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "controllers"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "setupChatNavigationVC"]
+- !private ["So16UIStateRestoringP", "setupGroupNavigationVC"]
+- !private ["So16UIStateRestoringP", "setupHomeNavigationVC"]
+- !private ["So16UIStateRestoringP", "setupUserNAvigationVC"]
+- !private ["So16UIStateRestoringP", "tabBarController"]
+- !private ["So16UIStateRestoringP", "tabBarItem"]
+- !private ["So16UIStateRestoringP", "viewControllers"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITabBarControllerC", "ChatVC"]
+- !private ["So18UITabBarControllerC", "GroupVC"]
+- !private ["So18UITabBarControllerC", "HomeViewController"]
+- !private ["So18UITabBarControllerC", "UIImage"]
+- ["So18UITabBarControllerC", "UINavigationController"]
+- !private ["So18UITabBarControllerC", "UITabBarItem"]
+- !private ["So18UITabBarControllerC", "UserVC"]
+- ["So18UITabBarControllerC", ""]
+- ["So18UITabBarControllerC", "controllers"]
+- ["So18UITabBarControllerC", "init"]
+- ["So18UITabBarControllerC", "setupChatNavigationVC"]
+- ["So18UITabBarControllerC", "setupGroupNavigationVC"]
+- ["So18UITabBarControllerC", "setupHomeNavigationVC"]
+- ["So18UITabBarControllerC", "setupUserNAvigationVC"]
+- !private ["So18UITabBarControllerC", "tabBarController"]
+- !private ["So18UITabBarControllerC", "viewControllers"]
+- ["So18UITabBarControllerC", "viewDidLoad"]
+- !private ["So16UITabBarDelegateP", "ChatVC"]
+- !private ["So16UITabBarDelegateP", "GroupVC"]
+- !private ["So16UITabBarDelegateP", "HomeViewController"]
+- !private ["So16UITabBarDelegateP", "UIImage"]
+- !private ["So16UITabBarDelegateP", "UINavigationController"]
+- !private ["So16UITabBarDelegateP", "UITabBarItem"]
+- !private ["So16UITabBarDelegateP", "UserVC"]
+- ["So16UITabBarDelegateP", ""]
+- !private ["So16UITabBarDelegateP", "controllers"]
+- !private ["So16UITabBarDelegateP", "init"]
+- !private ["So16UITabBarDelegateP", "setupChatNavigationVC"]
+- !private ["So16UITabBarDelegateP", "setupGroupNavigationVC"]
+- !private ["So16UITabBarDelegateP", "setupHomeNavigationVC"]
+- !private ["So16UITabBarDelegateP", "setupUserNAvigationVC"]
+- !private ["So16UITabBarDelegateP", "tabBarController"]
+- !private ["So16UITabBarDelegateP", "viewControllers"]
+- !private ["So16UITabBarDelegateP", "viewDidLoad"]
+- !private ["So12UITabBarItemC", "init"]
+- !private ["So18UITraitEnvironmentP", "ChatVC"]
+- !private ["So18UITraitEnvironmentP", "GroupVC"]
+- !private ["So18UITraitEnvironmentP", "HomeViewController"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "UINavigationController"]
+- !private ["So18UITraitEnvironmentP", "UITabBarItem"]
+- !private ["So18UITraitEnvironmentP", "UserVC"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "controllers"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "setupChatNavigationVC"]
+- !private ["So18UITraitEnvironmentP", "setupGroupNavigationVC"]
+- !private ["So18UITraitEnvironmentP", "setupHomeNavigationVC"]
+- !private ["So18UITraitEnvironmentP", "setupUserNAvigationVC"]
+- !private ["So18UITraitEnvironmentP", "tabBarController"]
+- !private ["So18UITraitEnvironmentP", "tabBarItem"]
+- !private ["So18UITraitEnvironmentP", "viewControllers"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So16UIViewControllerC", "ChatVC"]
+- !private ["So16UIViewControllerC", "GroupVC"]
+- !private ["So16UIViewControllerC", "HomeViewController"]
+- !private ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UINavigationController"]
+- !private ["So16UIViewControllerC", "UITabBarItem"]
+- !private ["So16UIViewControllerC", "UserVC"]
+- ["So16UIViewControllerC", "controllers"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "setupChatNavigationVC"]
+- ["So16UIViewControllerC", "setupGroupNavigationVC"]
+- ["So16UIViewControllerC", "setupHomeNavigationVC"]
+- ["So16UIViewControllerC", "setupUserNAvigationVC"]
+- !private ["So16UIViewControllerC", "tabBarController"]
+- !private ["So16UIViewControllerC", "tabBarItem"]
+- !private ["So16UIViewControllerC", "viewControllers"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10secondHand6UserVCC", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ChatVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GroupVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HomeViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITabBarItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserVC"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "controllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupChatNavigationVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupGroupNavigationVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupHomeNavigationVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupUserNAvigationVC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tabBarController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tabBarItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "10secondHand6ChatVCC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "10secondHand7GroupVCC"
+- "s8HashableP"
+- !private "10secondHand18HomeViewControllerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "10secondHand9RootTabVCC"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So9UIBarItemC"
+- !private "So24UIBarPositioningDelegateP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So19UISearchBarDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITabBarControllerC"
+- "So16UITabBarDelegateP"
+- !private "So12UITabBarItemC"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "10secondHand6UserVCC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ebc333c0df2cf4d54f9d4334a6323109"

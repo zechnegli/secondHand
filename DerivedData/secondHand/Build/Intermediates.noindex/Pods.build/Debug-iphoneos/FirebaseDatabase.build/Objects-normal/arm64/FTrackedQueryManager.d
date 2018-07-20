@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQueryManager.m \
+  /Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseDatabase.build/module.modulemap \
+  /Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQueryManager.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FImmutableTree.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FImmutableSortedDictionary.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FPath.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTuplePathValue.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Persistence/FLevelDBStorageEngine.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Persistence/FStorageEngine.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FNode.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FTypedefs_Private.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FCompoundWrite.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FQuerySpec.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/FIndex.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/FUtilities.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/FParsedUrl.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoInfo.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQuery.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Persistence/FPruneForest.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/FClock.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Persistence/FCachePolicy.h

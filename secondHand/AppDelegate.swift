@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
                 return
             } else if let user = user {
                 //store firebase token
-                KeychainWrapper.standard.set(user.uid, forKey: UID)
+                KeychainWrapper.standard.set(user.uid, forKey: Constant().UID)
                 self.setUpbasicInfo(currentUserUID: user.uid)
             }
             print("Zecheng signing firebase with google succeed")
@@ -79,6 +79,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         FirebaseApp.configure()
         GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self

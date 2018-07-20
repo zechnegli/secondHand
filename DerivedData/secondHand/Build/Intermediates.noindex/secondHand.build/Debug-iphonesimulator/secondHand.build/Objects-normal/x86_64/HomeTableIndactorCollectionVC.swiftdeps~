@@ -1,0 +1,916 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TableIndactorCollectionVC"
+provides-nominal:
+- "10secondHand25TableIndactorCollectionVCC"
+provides-member:
+- ["10secondHand25TableIndactorCollectionVCC", ""]
+provides-dynamic-lookup:
+- "collectionView"
+- "didReceiveMemoryWarning"
+- "numberOfSections"
+- "viewDidLoad"
+depends-top-level:
+- !private "!"
+- !private "..<"
+- !private "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "HomeTableIndactorCollectionCell"
+- "IndexPath"
+- "Int"
+- "StringLiteralType"
+- "TableCategory"
+- "TableIndactorCollectionVC"
+- "UICollectionView"
+- "UICollectionViewCell"
+- "UICollectionViewController"
+- !private "reuseIdentifier"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "getTableCategoryName"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "getTableCategoryName"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "row"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "animateLabel"]
+- !private ["So15CALayerDelegateP", "cellForItem"]
+- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
+- !private ["So15CALayerDelegateP", "isAnimated"]
+- !private ["So15CALayerDelegateP", "register"]
+- !private ["So15CALayerDelegateP", "resetLabel"]
+- !private ["So15CALayerDelegateP", "updateTableCategoryNameLabel"]
+- !private ["s7CVarArgP", "HomeTableIndactorCollectionCell"]
+- !private ["s7CVarArgP", "IndexPath"]
+- !private ["s7CVarArgP", "TableCategory"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "animateLabel"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "cellForItem"]
+- !private ["s7CVarArgP", "collectionView"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dequeueReusableCell"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isAnimated"]
+- !private ["s7CVarArgP", "register"]
+- !private ["s7CVarArgP", "resetLabel"]
+- !private ["s7CVarArgP", "reuseIdentifier"]
+- !private ["s7CVarArgP", "scrollingPageHandler"]
+- !private ["s7CVarArgP", "setupTableCategroyList"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tableCategoryList"]
+- !private ["s7CVarArgP", "updateTableCategoryNameLabel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "getTableCategoryName"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "row"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "row"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "animateLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "cellForItem"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "dequeueReusableCell"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "isAnimated"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "register"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "resetLabel"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "updateTableCategoryNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "HomeTableIndactorCollectionCell"]
+- !private ["s28CustomDebugStringConvertibleP", "IndexPath"]
+- !private ["s28CustomDebugStringConvertibleP", "TableCategory"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "animateLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "cellForItem"]
+- !private ["s28CustomDebugStringConvertibleP", "collectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "getTableCategoryName"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isAnimated"]
+- !private ["s28CustomDebugStringConvertibleP", "register"]
+- !private ["s28CustomDebugStringConvertibleP", "resetLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "reuseIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "scrollingPageHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "setupTableCategroyList"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tableCategoryList"]
+- !private ["s28CustomDebugStringConvertibleP", "updateTableCategoryNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "getTableCategoryName"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "HomeTableIndactorCollectionCell"]
+- !private ["s23CustomStringConvertibleP", "IndexPath"]
+- !private ["s23CustomStringConvertibleP", "TableCategory"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "animateLabel"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "cellForItem"]
+- !private ["s23CustomStringConvertibleP", "collectionView"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "getTableCategoryName"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isAnimated"]
+- !private ["s23CustomStringConvertibleP", "register"]
+- !private ["s23CustomStringConvertibleP", "resetLabel"]
+- !private ["s23CustomStringConvertibleP", "reuseIdentifier"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "scrollingPageHandler"]
+- !private ["s23CustomStringConvertibleP", "setupTableCategroyList"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tableCategoryList"]
+- !private ["s23CustomStringConvertibleP", "updateTableCategoryNameLabel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "row"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "row"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "HomeTableIndactorCollectionCell"]
+- !private ["s9EquatableP", "IndexPath"]
+- !private ["s9EquatableP", "TableCategory"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "animateLabel"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "cellForItem"]
+- !private ["s9EquatableP", "collectionView"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "dequeueReusableCell"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "getTableCategoryName"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isAnimated"]
+- !private ["s9EquatableP", "register"]
+- !private ["s9EquatableP", "resetLabel"]
+- !private ["s9EquatableP", "reuseIdentifier"]
+- !private ["s9EquatableP", "row"]
+- !private ["s9EquatableP", "scrollingPageHandler"]
+- !private ["s9EquatableP", "setupTableCategroyList"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "tableCategoryList"]
+- !private ["s9EquatableP", "updateTableCategoryNameLabel"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "getTableCategoryName"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "HomeTableIndactorCollectionCell"]
+- !private ["s8HashableP", "IndexPath"]
+- !private ["s8HashableP", "TableCategory"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "animateLabel"]
+- !private ["s8HashableP", "cellForItem"]
+- !private ["s8HashableP", "collectionView"]
+- !private ["s8HashableP", "dequeueReusableCell"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isAnimated"]
+- !private ["s8HashableP", "register"]
+- !private ["s8HashableP", "resetLabel"]
+- !private ["s8HashableP", "reuseIdentifier"]
+- !private ["s8HashableP", "row"]
+- !private ["s8HashableP", "scrollingPageHandler"]
+- !private ["s8HashableP", "setupTableCategroyList"]
+- !private ["s8HashableP", "tableCategoryList"]
+- !private ["s8HashableP", "updateTableCategoryNameLabel"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["10secondHand31HomeTableIndactorCollectionCellC", "animateLabel"]
+- !private ["10secondHand31HomeTableIndactorCollectionCellC", "isAnimated"]
+- !private ["10secondHand31HomeTableIndactorCollectionCellC", "resetLabel"]
+- !private ["10secondHand31HomeTableIndactorCollectionCellC", "updateTableCategoryNameLabel"]
+- !private ["10Foundation9IndexPathV", "init"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["7SnapKit20LayoutConstraintItemP", "animateLabel"]
+- !private ["7SnapKit20LayoutConstraintItemP", "cellForItem"]
+- !private ["7SnapKit20LayoutConstraintItemP", "dequeueReusableCell"]
+- !private ["7SnapKit20LayoutConstraintItemP", "isAnimated"]
+- !private ["7SnapKit20LayoutConstraintItemP", "register"]
+- !private ["7SnapKit20LayoutConstraintItemP", "resetLabel"]
+- !private ["7SnapKit20LayoutConstraintItemP", "updateTableCategoryNameLabel"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "getTableCategoryName"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "row"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "HomeTableIndactorCollectionCell"]
+- !private ["So8NSCodingP", "IndexPath"]
+- !private ["So8NSCodingP", "TableCategory"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "animateLabel"]
+- !private ["So8NSCodingP", "cellForItem"]
+- !private ["So8NSCodingP", "collectionView"]
+- !private ["So8NSCodingP", "dequeueReusableCell"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isAnimated"]
+- !private ["So8NSCodingP", "register"]
+- !private ["So8NSCodingP", "resetLabel"]
+- !private ["So8NSCodingP", "reuseIdentifier"]
+- !private ["So8NSCodingP", "scrollingPageHandler"]
+- !private ["So8NSCodingP", "setupTableCategroyList"]
+- !private ["So8NSCodingP", "tableCategoryList"]
+- !private ["So8NSCodingP", "updateTableCategoryNameLabel"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "HomeTableIndactorCollectionCell"]
+- !private ["So26NSExtensionRequestHandlingP", "IndexPath"]
+- !private ["So26NSExtensionRequestHandlingP", "TableCategory"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "collectionView"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "reuseIdentifier"]
+- !private ["So26NSExtensionRequestHandlingP", "scrollingPageHandler"]
+- !private ["So26NSExtensionRequestHandlingP", "setupTableCategroyList"]
+- !private ["So26NSExtensionRequestHandlingP", "tableCategoryList"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "HomeTableIndactorCollectionCell"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "TableCategory"]
+- ["So8NSObjectC", "UICollectionView"]
+- ["So8NSObjectC", "UICollectionViewCell"]
+- !private ["So8NSObjectC", "animateLabel"]
+- !private ["So8NSObjectC", "cellForItem"]
+- ["So8NSObjectC", "collectionView"]
+- !private ["So8NSObjectC", "dequeueReusableCell"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "getCellCount"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isAnimated"]
+- ["So8NSObjectC", "numberOfSections"]
+- !private ["So8NSObjectC", "register"]
+- !private ["So8NSObjectC", "resetLabel"]
+- !private ["So8NSObjectC", "reuseIdentifier"]
+- ["So8NSObjectC", "scrollingPageHandler"]
+- ["So8NSObjectC", "setupTableCategroyList"]
+- ["So8NSObjectC", "tableCategoryList"]
+- !private ["So8NSObjectC", "updateTableCategoryNameLabel"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "HomeTableIndactorCollectionCell"]
+- !private ["So16NSObjectProtocolP", "IndexPath"]
+- !private ["So16NSObjectProtocolP", "TableCategory"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "animateLabel"]
+- !private ["So16NSObjectProtocolP", "cellForItem"]
+- !private ["So16NSObjectProtocolP", "collectionView"]
+- !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isAnimated"]
+- !private ["So16NSObjectProtocolP", "register"]
+- !private ["So16NSObjectProtocolP", "resetLabel"]
+- !private ["So16NSObjectProtocolP", "reuseIdentifier"]
+- !private ["So16NSObjectProtocolP", "scrollingPageHandler"]
+- !private ["So16NSObjectProtocolP", "setupTableCategroyList"]
+- !private ["So16NSObjectProtocolP", "tableCategoryList"]
+- !private ["So16NSObjectProtocolP", "updateTableCategoryNameLabel"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "getTableCategoryName"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "row"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "getTableCategoryName"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "getTableCategoryName"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "row"]
+- !private ["s8SequenceP", "subscript"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- !private ["10secondHand13TableCategoryC", "getTableCategoryName"]
+- !private ["10secondHand13TableCategoryC", "init"]
+- !private ["10secondHand25TableIndactorCollectionVCC", "HomeTableIndactorCollectionCell"]
+- ["10secondHand25TableIndactorCollectionVCC", "IndexPath"]
+- ["10secondHand25TableIndactorCollectionVCC", "Int"]
+- ["10secondHand25TableIndactorCollectionVCC", "TableCategory"]
+- ["10secondHand25TableIndactorCollectionVCC", "UICollectionView"]
+- ["10secondHand25TableIndactorCollectionVCC", "UICollectionViewCell"]
+- ["10secondHand25TableIndactorCollectionVCC", "collectionView"]
+- ["10secondHand25TableIndactorCollectionVCC", "deinit"]
+- ["10secondHand25TableIndactorCollectionVCC", "didReceiveMemoryWarning"]
+- ["10secondHand25TableIndactorCollectionVCC", "getCellCount"]
+- ["10secondHand25TableIndactorCollectionVCC", "init"]
+- ["10secondHand25TableIndactorCollectionVCC", "numberOfSections"]
+- !private ["10secondHand25TableIndactorCollectionVCC", "reuseIdentifier"]
+- ["10secondHand25TableIndactorCollectionVCC", "scrollingPageHandler"]
+- !private ["10secondHand25TableIndactorCollectionVCC", "setupTableCategroyList"]
+- ["10secondHand25TableIndactorCollectionVCC", "tableCategoryList"]
+- ["10secondHand25TableIndactorCollectionVCC", "viewDidLoad"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "animateLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "cellForItem"]
+- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
+- !private ["So29UIAccessibilityIdentificationP", "isAnimated"]
+- !private ["So29UIAccessibilityIdentificationP", "register"]
+- !private ["So29UIAccessibilityIdentificationP", "resetLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "updateTableCategoryNameLabel"]
+- !private ["So12UIAppearanceP", "animateLabel"]
+- !private ["So12UIAppearanceP", "cellForItem"]
+- !private ["So12UIAppearanceP", "dequeueReusableCell"]
+- !private ["So12UIAppearanceP", "isAnimated"]
+- !private ["So12UIAppearanceP", "register"]
+- !private ["So12UIAppearanceP", "resetLabel"]
+- !private ["So12UIAppearanceP", "updateTableCategoryNameLabel"]
+- !private ["So21UIAppearanceContainerP", "HomeTableIndactorCollectionCell"]
+- !private ["So21UIAppearanceContainerP", "IndexPath"]
+- !private ["So21UIAppearanceContainerP", "TableCategory"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "animateLabel"]
+- !private ["So21UIAppearanceContainerP", "cellForItem"]
+- !private ["So21UIAppearanceContainerP", "collectionView"]
+- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isAnimated"]
+- !private ["So21UIAppearanceContainerP", "register"]
+- !private ["So21UIAppearanceContainerP", "resetLabel"]
+- !private ["So21UIAppearanceContainerP", "reuseIdentifier"]
+- !private ["So21UIAppearanceContainerP", "scrollingPageHandler"]
+- !private ["So21UIAppearanceContainerP", "setupTableCategroyList"]
+- !private ["So21UIAppearanceContainerP", "tableCategoryList"]
+- !private ["So21UIAppearanceContainerP", "updateTableCategoryNameLabel"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So24UICollectionReusableViewC", "animateLabel"]
+- !private ["So24UICollectionReusableViewC", "isAnimated"]
+- !private ["So24UICollectionReusableViewC", "resetLabel"]
+- !private ["So24UICollectionReusableViewC", "updateTableCategoryNameLabel"]
+- !private ["So16UICollectionViewC", "cellForItem"]
+- !private ["So16UICollectionViewC", "dequeueReusableCell"]
+- !private ["So16UICollectionViewC", "register"]
+- !private ["So20UICollectionViewCellC", "animateLabel"]
+- !private ["So20UICollectionViewCellC", "isAnimated"]
+- !private ["So20UICollectionViewCellC", "resetLabel"]
+- !private ["So20UICollectionViewCellC", "updateTableCategoryNameLabel"]
+- !private ["So26UICollectionViewControllerC", "HomeTableIndactorCollectionCell"]
+- ["So26UICollectionViewControllerC", "IndexPath"]
+- ["So26UICollectionViewControllerC", "Int"]
+- ["So26UICollectionViewControllerC", "TableCategory"]
+- ["So26UICollectionViewControllerC", "UICollectionView"]
+- ["So26UICollectionViewControllerC", "UICollectionViewCell"]
+- ["So26UICollectionViewControllerC", ""]
+- ["So26UICollectionViewControllerC", "collectionView"]
+- ["So26UICollectionViewControllerC", "didReceiveMemoryWarning"]
+- ["So26UICollectionViewControllerC", "getCellCount"]
+- ["So26UICollectionViewControllerC", "init"]
+- ["So26UICollectionViewControllerC", "numberOfSections"]
+- !private ["So26UICollectionViewControllerC", "reuseIdentifier"]
+- ["So26UICollectionViewControllerC", "scrollingPageHandler"]
+- ["So26UICollectionViewControllerC", "setupTableCategroyList"]
+- ["So26UICollectionViewControllerC", "tableCategoryList"]
+- ["So26UICollectionViewControllerC", "viewDidLoad"]
+- !private ["So26UICollectionViewDataSourceP", "HomeTableIndactorCollectionCell"]
+- !private ["So26UICollectionViewDataSourceP", "IndexPath"]
+- !private ["So26UICollectionViewDataSourceP", "TableCategory"]
+- ["So26UICollectionViewDataSourceP", ""]
+- !private ["So26UICollectionViewDataSourceP", "collectionView"]
+- !private ["So26UICollectionViewDataSourceP", "didReceiveMemoryWarning"]
+- !private ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So26UICollectionViewDataSourceP", "reuseIdentifier"]
+- !private ["So26UICollectionViewDataSourceP", "scrollingPageHandler"]
+- !private ["So26UICollectionViewDataSourceP", "setupTableCategroyList"]
+- !private ["So26UICollectionViewDataSourceP", "tableCategoryList"]
+- !private ["So26UICollectionViewDataSourceP", "viewDidLoad"]
+- !private ["So24UICollectionViewDelegateP", "HomeTableIndactorCollectionCell"]
+- !private ["So24UICollectionViewDelegateP", "IndexPath"]
+- !private ["So24UICollectionViewDelegateP", "TableCategory"]
+- ["So24UICollectionViewDelegateP", ""]
+- !private ["So24UICollectionViewDelegateP", "collectionView"]
+- !private ["So24UICollectionViewDelegateP", "didReceiveMemoryWarning"]
+- !private ["So24UICollectionViewDelegateP", "init"]
+- !private ["So24UICollectionViewDelegateP", "reuseIdentifier"]
+- !private ["So24UICollectionViewDelegateP", "scrollingPageHandler"]
+- !private ["So24UICollectionViewDelegateP", "setupTableCategroyList"]
+- !private ["So24UICollectionViewDelegateP", "tableCategoryList"]
+- !private ["So24UICollectionViewDelegateP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "HomeTableIndactorCollectionCell"]
+- !private ["So18UIContentContainerP", "IndexPath"]
+- !private ["So18UIContentContainerP", "TableCategory"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "collectionView"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "reuseIdentifier"]
+- !private ["So18UIContentContainerP", "scrollingPageHandler"]
+- !private ["So18UIContentContainerP", "setupTableCategroyList"]
+- !private ["So18UIContentContainerP", "tableCategoryList"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "animateLabel"]
+- !private ["So17UICoordinateSpaceP", "cellForItem"]
+- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
+- !private ["So17UICoordinateSpaceP", "isAnimated"]
+- !private ["So17UICoordinateSpaceP", "register"]
+- !private ["So17UICoordinateSpaceP", "resetLabel"]
+- !private ["So17UICoordinateSpaceP", "updateTableCategoryNameLabel"]
+- !private ["So23UIDataSourceTranslatingP", "cellForItem"]
+- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "register"]
+- !private ["So13UIDynamicItemP", "animateLabel"]
+- !private ["So13UIDynamicItemP", "cellForItem"]
+- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So13UIDynamicItemP", "isAnimated"]
+- !private ["So13UIDynamicItemP", "register"]
+- !private ["So13UIDynamicItemP", "resetLabel"]
+- !private ["So13UIDynamicItemP", "updateTableCategoryNameLabel"]
+- !private ["So18UIFocusEnvironmentP", "HomeTableIndactorCollectionCell"]
+- !private ["So18UIFocusEnvironmentP", "IndexPath"]
+- !private ["So18UIFocusEnvironmentP", "TableCategory"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "animateLabel"]
+- !private ["So18UIFocusEnvironmentP", "cellForItem"]
+- !private ["So18UIFocusEnvironmentP", "collectionView"]
+- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isAnimated"]
+- !private ["So18UIFocusEnvironmentP", "register"]
+- !private ["So18UIFocusEnvironmentP", "resetLabel"]
+- !private ["So18UIFocusEnvironmentP", "reuseIdentifier"]
+- !private ["So18UIFocusEnvironmentP", "scrollingPageHandler"]
+- !private ["So18UIFocusEnvironmentP", "setupTableCategroyList"]
+- !private ["So18UIFocusEnvironmentP", "tableCategoryList"]
+- !private ["So18UIFocusEnvironmentP", "updateTableCategoryNameLabel"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "animateLabel"]
+- !private ["So11UIFocusItemP", "cellForItem"]
+- !private ["So11UIFocusItemP", "dequeueReusableCell"]
+- !private ["So11UIFocusItemP", "isAnimated"]
+- !private ["So11UIFocusItemP", "register"]
+- !private ["So11UIFocusItemP", "resetLabel"]
+- !private ["So11UIFocusItemP", "updateTableCategoryNameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "HomeTableIndactorCollectionCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "IndexPath"]
+- !private ["So30UIPasteConfigurationSupportingP", "TableCategory"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "animateLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "cellForItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "collectionView"]
+- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isAnimated"]
+- !private ["So30UIPasteConfigurationSupportingP", "register"]
+- !private ["So30UIPasteConfigurationSupportingP", "resetLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "reuseIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "scrollingPageHandler"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupTableCategroyList"]
+- !private ["So30UIPasteConfigurationSupportingP", "tableCategoryList"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateTableCategoryNameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "HomeTableIndactorCollectionCell"]
+- ["So11UIResponderC", "IndexPath"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "TableCategory"]
+- ["So11UIResponderC", "UICollectionView"]
+- ["So11UIResponderC", "UICollectionViewCell"]
+- !private ["So11UIResponderC", "animateLabel"]
+- !private ["So11UIResponderC", "cellForItem"]
+- ["So11UIResponderC", "collectionView"]
+- !private ["So11UIResponderC", "dequeueReusableCell"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "getCellCount"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isAnimated"]
+- ["So11UIResponderC", "numberOfSections"]
+- !private ["So11UIResponderC", "register"]
+- !private ["So11UIResponderC", "resetLabel"]
+- !private ["So11UIResponderC", "reuseIdentifier"]
+- ["So11UIResponderC", "scrollingPageHandler"]
+- ["So11UIResponderC", "setupTableCategroyList"]
+- ["So11UIResponderC", "tableCategoryList"]
+- !private ["So11UIResponderC", "updateTableCategoryNameLabel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "HomeTableIndactorCollectionCell"]
+- !private ["So30UIResponderStandardEditActionsP", "IndexPath"]
+- !private ["So30UIResponderStandardEditActionsP", "TableCategory"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "animateLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "cellForItem"]
+- !private ["So30UIResponderStandardEditActionsP", "collectionView"]
+- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isAnimated"]
+- !private ["So30UIResponderStandardEditActionsP", "register"]
+- !private ["So30UIResponderStandardEditActionsP", "resetLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "reuseIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "scrollingPageHandler"]
+- !private ["So30UIResponderStandardEditActionsP", "setupTableCategroyList"]
+- !private ["So30UIResponderStandardEditActionsP", "tableCategoryList"]
+- !private ["So30UIResponderStandardEditActionsP", "updateTableCategoryNameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So12UIScrollViewC", "cellForItem"]
+- !private ["So12UIScrollViewC", "dequeueReusableCell"]
+- !private ["So12UIScrollViewC", "register"]
+- !private ["So20UIScrollViewDelegateP", "HomeTableIndactorCollectionCell"]
+- !private ["So20UIScrollViewDelegateP", "IndexPath"]
+- !private ["So20UIScrollViewDelegateP", "TableCategory"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "collectionView"]
+- !private ["So20UIScrollViewDelegateP", "didReceiveMemoryWarning"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "reuseIdentifier"]
+- !private ["So20UIScrollViewDelegateP", "scrollingPageHandler"]
+- !private ["So20UIScrollViewDelegateP", "setupTableCategroyList"]
+- !private ["So20UIScrollViewDelegateP", "tableCategoryList"]
+- !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "cellForItem"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "register"]
+- !private ["So16UIStateRestoringP", "HomeTableIndactorCollectionCell"]
+- !private ["So16UIStateRestoringP", "IndexPath"]
+- !private ["So16UIStateRestoringP", "TableCategory"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "collectionView"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "reuseIdentifier"]
+- !private ["So16UIStateRestoringP", "scrollingPageHandler"]
+- !private ["So16UIStateRestoringP", "setupTableCategroyList"]
+- !private ["So16UIStateRestoringP", "tableCategoryList"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "HomeTableIndactorCollectionCell"]
+- !private ["So18UITraitEnvironmentP", "IndexPath"]
+- !private ["So18UITraitEnvironmentP", "TableCategory"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "animateLabel"]
+- !private ["So18UITraitEnvironmentP", "cellForItem"]
+- !private ["So18UITraitEnvironmentP", "collectionView"]
+- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isAnimated"]
+- !private ["So18UITraitEnvironmentP", "register"]
+- !private ["So18UITraitEnvironmentP", "resetLabel"]
+- !private ["So18UITraitEnvironmentP", "reuseIdentifier"]
+- !private ["So18UITraitEnvironmentP", "scrollingPageHandler"]
+- !private ["So18UITraitEnvironmentP", "setupTableCategroyList"]
+- !private ["So18UITraitEnvironmentP", "tableCategoryList"]
+- !private ["So18UITraitEnvironmentP", "updateTableCategoryNameLabel"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "animateLabel"]
+- !private ["So6UIViewC", "cellForItem"]
+- !private ["So6UIViewC", "dequeueReusableCell"]
+- !private ["So6UIViewC", "isAnimated"]
+- !private ["So6UIViewC", "register"]
+- !private ["So6UIViewC", "resetLabel"]
+- !private ["So6UIViewC", "updateTableCategoryNameLabel"]
+- !private ["So16UIViewControllerC", "HomeTableIndactorCollectionCell"]
+- ["So16UIViewControllerC", "IndexPath"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "TableCategory"]
+- ["So16UIViewControllerC", "UICollectionView"]
+- ["So16UIViewControllerC", "UICollectionViewCell"]
+- ["So16UIViewControllerC", "collectionView"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "getCellCount"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "numberOfSections"]
+- !private ["So16UIViewControllerC", "reuseIdentifier"]
+- ["So16UIViewControllerC", "scrollingPageHandler"]
+- ["So16UIViewControllerC", "setupTableCategroyList"]
+- ["So16UIViewControllerC", "tableCategoryList"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "getTableCategoryName"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animateLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "cellForItem"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isAnimated"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "register"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "resetLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateTableCategoryNameLabel"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "getTableCategoryName"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HomeTableIndactorCollectionCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "IndexPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TableCategory"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animateLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cellForItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isAnimated"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resetLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reuseIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scrollingPageHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupTableCategroyList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tableCategoryList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateTableCategoryNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s10ArraySliceV"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10secondHand31HomeTableIndactorCollectionCellC"
+- !private "10Foundation9IndexPathV"
+- !private "7SnapKit20LayoutConstraintItemP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- !private "10secondHand13TableCategoryC"
+- "10secondHand25TableIndactorCollectionVCC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So24UICollectionReusableViewC"
+- !private "So16UICollectionViewC"
+- !private "So20UICollectionViewCellC"
+- "So26UICollectionViewControllerC"
+- "So26UICollectionViewDataSourceP"
+- "So24UICollectionViewDelegateP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0df2a1e50383ace6f3196d0fe35da8a3"

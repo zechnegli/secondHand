@@ -1,0 +1,8 @@
+dependencies: \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQuery.m \
+  /Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseDatabase.build/module.modulemap \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Persistence/FTrackedQuery.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FQuerySpec.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FPath.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/FIndex.h

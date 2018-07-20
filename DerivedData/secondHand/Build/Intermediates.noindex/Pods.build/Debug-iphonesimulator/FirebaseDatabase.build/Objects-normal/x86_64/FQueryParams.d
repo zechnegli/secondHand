@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.m \
+  /Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseDatabase.build/module.modulemap \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/FValidation.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FPath.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataEventType.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/FParsedUrl.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoInfo.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/FTypedefs.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Constants/FConstants.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/FIndex.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/FPriorityIndex.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/FUtilities.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FNodeFilter.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FIndexedFilter.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/View/Filter/FLimitedFilter.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/FRangedFilter.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FNode.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FTypedefs_Private.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Snapshot/FSnapshotUtilities.h

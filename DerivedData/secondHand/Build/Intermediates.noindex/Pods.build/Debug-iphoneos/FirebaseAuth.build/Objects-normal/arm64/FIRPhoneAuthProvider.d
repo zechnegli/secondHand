@@ -1,0 +1,42 @@
+dependencies: \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Phone/FIRPhoneAuthProvider.m \
+  /Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseAuth.build/module.modulemap \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthProvider.h \
+  /Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Phone/FIRPhoneAuthCredential_Internal.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthCredential.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthCredential.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAPNSToken.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAPNSTokenManager.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAppCredential.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAppCredentialManager.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthGlobalWorkQueue.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuth_Internal.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuth.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthURLPresenter.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthNotificationManager.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthErrorUtils.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthBackend.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthSettings.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthWebUtils.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuthVersion.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetProjectConfigRequest.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRIdentityToolkitRequest.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRequestConfiguration.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRPCRequest.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetProjectConfigResponse.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRPCResponse.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSendVerificationCodeRequest.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSendVerificationCodeResponse.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyClientRequest.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyClientResponse.h

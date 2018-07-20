@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "eaa98b58c1441365864933128ff120dd"
+build_time: [1530946340, 459928000]
+inputs:
+  "/Users/zecheng/iosDevelop/secondHand/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": [1529761969, 0]
+  "/Users/zecheng/iosDevelop/secondHand/Pods/FacebookLogin/Sources/Login/LoginButton.swift": [1529761969, 0]
+  "/Users/zecheng/iosDevelop/secondHand/Pods/FacebookLogin/Sources/Login/LoginButton.Tooltip.swift": [1529761969, 0]
+  "/Users/zecheng/iosDevelop/secondHand/Pods/FacebookLogin/Sources/Login/LoginButtonDelegate.swift": [1529761969, 0]
+  "/Users/zecheng/iosDevelop/secondHand/Pods/FacebookLogin/Sources/Login/LoginButtonDelegateBridge.swift": [1529761969, 0]
+  "/Users/zecheng/iosDevelop/secondHand/Pods/FacebookLogin/Sources/Login/LoginDefaultAudience.swift": [1529761969, 0]
+  "/Users/zecheng/iosDevelop/secondHand/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [1529761969, 0]
+  "/Users/zecheng/iosDevelop/secondHand/Pods/FacebookLogin/Sources/Login/LoginResult.swift": [1529761969, 0]

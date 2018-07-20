@@ -1,0 +1,1299 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HomePageViewController"
+provides-nominal:
+- "10secondHand22HomePageViewControllerC"
+provides-member:
+- ["10secondHand22HomePageViewControllerC", ""]
+provides-dynamic-lookup:
+- "pageViewController"
+- "viewDidLoad"
+- "viewWillAppear"
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "<"
+- !private ">="
+- "AdsViewController"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGRect"
+- "HomePageViewController"
+- !private "StringLiteralType"
+- !private "UIColor"
+- "UIPageControl"
+- "UIPageViewController"
+- "UIPageViewControllerDataSource"
+- "UIPageViewControllerDelegate"
+- "UIViewController"
+- !private "UnicodeScalarType"
+- !private "||"
+depends-member:
+- !private ["10secondHand17AdsViewControllerC", "init"]
+- !private ["10secondHand17AdsViewControllerC", "loadURLRequest"]
+- !private ["10secondHand17AdsViewControllerC", "setSubviewSize"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "index"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "index"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "currentPage"]
+- !private ["So15CALayerDelegateP", "currentPageIndicatorTintColor"]
+- !private ["So15CALayerDelegateP", "frame"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "numberOfPages"]
+- !private ["So15CALayerDelegateP", "pageIndicatorTintColor"]
+- !private ["So15CALayerDelegateP", "tintColor"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "AdsViewController"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", "UIPageControl"]
+- !private ["s7CVarArgP", "UIViewController"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "configurePageControl"]
+- !private ["s7CVarArgP", "controllers"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "currentPage"]
+- !private ["s7CVarArgP", "currentPageIndicatorTintColor"]
+- !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "index"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loadURLRequest"]
+- !private ["s7CVarArgP", "numberOfPages"]
+- !private ["s7CVarArgP", "pageControl"]
+- !private ["s7CVarArgP", "pageIndicatorTintColor"]
+- ["s7CVarArgP", "pageViewController"]
+- ["s7CVarArgP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["s7CVarArgP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["s7CVarArgP", "presentationCount"]
+- ["s7CVarArgP", "presentationCountForPageViewController"]
+- ["s7CVarArgP", "presentationIndex"]
+- ["s7CVarArgP", "presentationIndexForPageViewController"]
+- !private ["s7CVarArgP", "setSubviewSize"]
+- !private ["s7CVarArgP", "setViewControllers"]
+- !private ["s7CVarArgP", "subController1"]
+- !private ["s7CVarArgP", "subController2"]
+- !private ["s7CVarArgP", "subController3"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewControllers"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "white"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "index"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "height"]
+- !private ["7SnapKit24ConstraintConstantTargetP", "width"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "addSubview"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "currentPage"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "currentPageIndicatorTintColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "frame"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "height"]
+- ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "numberOfPages"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "pageIndicatorTintColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "tintColor"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "AdsViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", "UIPageControl"]
+- !private ["s28CustomDebugStringConvertibleP", "UIViewController"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "configurePageControl"]
+- !private ["s28CustomDebugStringConvertibleP", "controllers"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "currentPage"]
+- !private ["s28CustomDebugStringConvertibleP", "currentPageIndicatorTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadURLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfPages"]
+- !private ["s28CustomDebugStringConvertibleP", "pageControl"]
+- !private ["s28CustomDebugStringConvertibleP", "pageIndicatorTintColor"]
+- ["s28CustomDebugStringConvertibleP", "pageViewController"]
+- ["s28CustomDebugStringConvertibleP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["s28CustomDebugStringConvertibleP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["s28CustomDebugStringConvertibleP", "presentationCount"]
+- ["s28CustomDebugStringConvertibleP", "presentationCountForPageViewController"]
+- ["s28CustomDebugStringConvertibleP", "presentationIndex"]
+- ["s28CustomDebugStringConvertibleP", "presentationIndexForPageViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "setSubviewSize"]
+- !private ["s28CustomDebugStringConvertibleP", "setViewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "subController1"]
+- !private ["s28CustomDebugStringConvertibleP", "subController2"]
+- !private ["s28CustomDebugStringConvertibleP", "subController3"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "AdsViewController"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", "UIPageControl"]
+- !private ["s23CustomStringConvertibleP", "UIViewController"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "configurePageControl"]
+- !private ["s23CustomStringConvertibleP", "controllers"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "currentPage"]
+- !private ["s23CustomStringConvertibleP", "currentPageIndicatorTintColor"]
+- !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loadURLRequest"]
+- !private ["s23CustomStringConvertibleP", "numberOfPages"]
+- !private ["s23CustomStringConvertibleP", "pageControl"]
+- !private ["s23CustomStringConvertibleP", "pageIndicatorTintColor"]
+- ["s23CustomStringConvertibleP", "pageViewController"]
+- ["s23CustomStringConvertibleP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["s23CustomStringConvertibleP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["s23CustomStringConvertibleP", "presentationCount"]
+- ["s23CustomStringConvertibleP", "presentationCountForPageViewController"]
+- ["s23CustomStringConvertibleP", "presentationIndex"]
+- ["s23CustomStringConvertibleP", "presentationIndexForPageViewController"]
+- !private ["s23CustomStringConvertibleP", "setSubviewSize"]
+- !private ["s23CustomStringConvertibleP", "setViewControllers"]
+- !private ["s23CustomStringConvertibleP", "subController1"]
+- !private ["s23CustomStringConvertibleP", "subController2"]
+- !private ["s23CustomStringConvertibleP", "subController3"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewControllers"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "index"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "index"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "AdsViewController"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "UIColor"]
+- ["s9EquatableP", "UIPageControl"]
+- !private ["s9EquatableP", "UIViewController"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "black"]
+- !private ["s9EquatableP", "configurePageControl"]
+- !private ["s9EquatableP", "controllers"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "currentPage"]
+- !private ["s9EquatableP", "currentPageIndicatorTintColor"]
+- !private ["s9EquatableP", "dataSource"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "forward"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "index"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "loadURLRequest"]
+- !private ["s9EquatableP", "numberOfPages"]
+- !private ["s9EquatableP", "pageControl"]
+- !private ["s9EquatableP", "pageIndicatorTintColor"]
+- ["s9EquatableP", "pageViewController"]
+- ["s9EquatableP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["s9EquatableP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["s9EquatableP", "presentationCount"]
+- ["s9EquatableP", "presentationCountForPageViewController"]
+- ["s9EquatableP", "presentationIndex"]
+- ["s9EquatableP", "presentationIndexForPageViewController"]
+- !private ["s9EquatableP", "setSubviewSize"]
+- !private ["s9EquatableP", "setViewControllers"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "subController1"]
+- !private ["s9EquatableP", "subController2"]
+- !private ["s9EquatableP", "subController3"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "tintColor"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewControllers"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "white"]
+- !private ["s9EquatableP", "width"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "AdsViewController"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "UIColor"]
+- ["s8HashableP", "UIPageControl"]
+- !private ["s8HashableP", "UIViewController"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "black"]
+- !private ["s8HashableP", "configurePageControl"]
+- !private ["s8HashableP", "controllers"]
+- !private ["s8HashableP", "currentPage"]
+- !private ["s8HashableP", "currentPageIndicatorTintColor"]
+- !private ["s8HashableP", "dataSource"]
+- !private ["s8HashableP", "forward"]
+- !private ["s8HashableP", "frame"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "loadURLRequest"]
+- !private ["s8HashableP", "numberOfPages"]
+- !private ["s8HashableP", "pageControl"]
+- !private ["s8HashableP", "pageIndicatorTintColor"]
+- ["s8HashableP", "pageViewController"]
+- ["s8HashableP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["s8HashableP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["s8HashableP", "presentationCount"]
+- ["s8HashableP", "presentationCountForPageViewController"]
+- ["s8HashableP", "presentationIndex"]
+- ["s8HashableP", "presentationIndexForPageViewController"]
+- !private ["s8HashableP", "setSubviewSize"]
+- !private ["s8HashableP", "setViewControllers"]
+- !private ["s8HashableP", "subController1"]
+- !private ["s8HashableP", "subController2"]
+- !private ["s8HashableP", "subController3"]
+- !private ["s8HashableP", "tintColor"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewControllers"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "white"]
+- ["10secondHand22HomePageViewControllerC", "AdsViewController"]
+- ["10secondHand22HomePageViewControllerC", "Bool"]
+- ["10secondHand22HomePageViewControllerC", "CGRect"]
+- !private ["10secondHand22HomePageViewControllerC", "UIColor"]
+- ["10secondHand22HomePageViewControllerC", "UIPageControl"]
+- ["10secondHand22HomePageViewControllerC", "UIPageViewController"]
+- ["10secondHand22HomePageViewControllerC", "UIViewController"]
+- ["10secondHand22HomePageViewControllerC", "configurePageControl"]
+- ["10secondHand22HomePageViewControllerC", "controllers"]
+- !private ["10secondHand22HomePageViewControllerC", "dataSource"]
+- ["10secondHand22HomePageViewControllerC", "deinit"]
+- ["10secondHand22HomePageViewControllerC", "init"]
+- ["10secondHand22HomePageViewControllerC", "pageControl"]
+- ["10secondHand22HomePageViewControllerC", "pageViewController"]
+- ["10secondHand22HomePageViewControllerC", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["10secondHand22HomePageViewControllerC", "pageViewControllerSupportedInterfaceOrientations"]
+- ["10secondHand22HomePageViewControllerC", "presentationCount"]
+- ["10secondHand22HomePageViewControllerC", "presentationCountForPageViewController"]
+- ["10secondHand22HomePageViewControllerC", "presentationIndex"]
+- ["10secondHand22HomePageViewControllerC", "presentationIndexForPageViewController"]
+- !private ["10secondHand22HomePageViewControllerC", "setViewControllers"]
+- ["10secondHand22HomePageViewControllerC", "subController1"]
+- ["10secondHand22HomePageViewControllerC", "subController2"]
+- ["10secondHand22HomePageViewControllerC", "subController3"]
+- !private ["10secondHand22HomePageViewControllerC", "view"]
+- ["10secondHand22HomePageViewControllerC", "viewDidLoad"]
+- ["10secondHand22HomePageViewControllerC", "viewWillAppear"]
+- !private ["7SnapKit20LayoutConstraintItemP", "addSubview"]
+- !private ["7SnapKit20LayoutConstraintItemP", "currentPage"]
+- !private ["7SnapKit20LayoutConstraintItemP", "currentPageIndicatorTintColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "frame"]
+- ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "numberOfPages"]
+- !private ["7SnapKit20LayoutConstraintItemP", "pageIndicatorTintColor"]
+- !private ["7SnapKit20LayoutConstraintItemP", "tintColor"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "index"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "AdsViewController"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", "UIPageControl"]
+- !private ["So8NSCodingP", "UIViewController"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "configurePageControl"]
+- !private ["So8NSCodingP", "controllers"]
+- !private ["So8NSCodingP", "currentPage"]
+- !private ["So8NSCodingP", "currentPageIndicatorTintColor"]
+- !private ["So8NSCodingP", "dataSource"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loadURLRequest"]
+- !private ["So8NSCodingP", "numberOfPages"]
+- !private ["So8NSCodingP", "pageControl"]
+- !private ["So8NSCodingP", "pageIndicatorTintColor"]
+- ["So8NSCodingP", "pageViewController"]
+- ["So8NSCodingP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSCodingP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So8NSCodingP", "presentationCount"]
+- ["So8NSCodingP", "presentationCountForPageViewController"]
+- ["So8NSCodingP", "presentationIndex"]
+- ["So8NSCodingP", "presentationIndexForPageViewController"]
+- !private ["So8NSCodingP", "setSubviewSize"]
+- !private ["So8NSCodingP", "setViewControllers"]
+- !private ["So8NSCodingP", "subController1"]
+- !private ["So8NSCodingP", "subController2"]
+- !private ["So8NSCodingP", "subController3"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewControllers"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So26NSExtensionRequestHandlingP", "AdsViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- ["So26NSExtensionRequestHandlingP", "UIPageControl"]
+- !private ["So26NSExtensionRequestHandlingP", "UIViewController"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "configurePageControl"]
+- !private ["So26NSExtensionRequestHandlingP", "controllers"]
+- !private ["So26NSExtensionRequestHandlingP", "dataSource"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loadURLRequest"]
+- !private ["So26NSExtensionRequestHandlingP", "pageControl"]
+- ["So26NSExtensionRequestHandlingP", "pageViewController"]
+- ["So26NSExtensionRequestHandlingP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So26NSExtensionRequestHandlingP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So26NSExtensionRequestHandlingP", "presentationCount"]
+- ["So26NSExtensionRequestHandlingP", "presentationCountForPageViewController"]
+- ["So26NSExtensionRequestHandlingP", "presentationIndex"]
+- ["So26NSExtensionRequestHandlingP", "presentationIndexForPageViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "setSubviewSize"]
+- !private ["So26NSExtensionRequestHandlingP", "setViewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "subController1"]
+- !private ["So26NSExtensionRequestHandlingP", "subController2"]
+- !private ["So26NSExtensionRequestHandlingP", "subController3"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", "AdsViewController"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIPageControl"]
+- ["So8NSObjectC", "UIPageViewController"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "black"]
+- ["So8NSObjectC", "configurePageControl"]
+- ["So8NSObjectC", "controllers"]
+- !private ["So8NSObjectC", "currentPage"]
+- !private ["So8NSObjectC", "currentPageIndicatorTintColor"]
+- !private ["So8NSObjectC", "dataSource"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "loadURLRequest"]
+- !private ["So8NSObjectC", "numberOfPages"]
+- ["So8NSObjectC", "pageControl"]
+- !private ["So8NSObjectC", "pageIndicatorTintColor"]
+- ["So8NSObjectC", "pageViewController"]
+- ["So8NSObjectC", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectC", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So8NSObjectC", "presentationCount"]
+- ["So8NSObjectC", "presentationCountForPageViewController"]
+- ["So8NSObjectC", "presentationIndex"]
+- ["So8NSObjectC", "presentationIndexForPageViewController"]
+- !private ["So8NSObjectC", "setSubviewSize"]
+- !private ["So8NSObjectC", "setViewControllers"]
+- ["So8NSObjectC", "subController1"]
+- ["So8NSObjectC", "subController2"]
+- ["So8NSObjectC", "subController3"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectC", "viewControllers"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillAppear"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So16NSObjectProtocolP", "AdsViewController"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- ["So16NSObjectProtocolP", "UIPageControl"]
+- !private ["So16NSObjectProtocolP", "UIViewController"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "black"]
+- !private ["So16NSObjectProtocolP", "configurePageControl"]
+- !private ["So16NSObjectProtocolP", "controllers"]
+- !private ["So16NSObjectProtocolP", "currentPage"]
+- !private ["So16NSObjectProtocolP", "currentPageIndicatorTintColor"]
+- !private ["So16NSObjectProtocolP", "dataSource"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "loadURLRequest"]
+- !private ["So16NSObjectProtocolP", "numberOfPages"]
+- !private ["So16NSObjectProtocolP", "pageControl"]
+- !private ["So16NSObjectProtocolP", "pageIndicatorTintColor"]
+- ["So16NSObjectProtocolP", "pageViewController"]
+- ["So16NSObjectProtocolP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16NSObjectProtocolP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So16NSObjectProtocolP", "presentationCount"]
+- ["So16NSObjectProtocolP", "presentationCountForPageViewController"]
+- ["So16NSObjectProtocolP", "presentationIndex"]
+- ["So16NSObjectProtocolP", "presentationIndexForPageViewController"]
+- !private ["So16NSObjectProtocolP", "setSubviewSize"]
+- !private ["So16NSObjectProtocolP", "setViewControllers"]
+- !private ["So16NSObjectProtocolP", "subController1"]
+- !private ["So16NSObjectProtocolP", "subController2"]
+- !private ["So16NSObjectProtocolP", "subController3"]
+- !private ["So16NSObjectProtocolP", "tintColor"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewControllers"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "white"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "index"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "index"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "forward"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "index"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "currentPage"]
+- !private ["So29UIAccessibilityIdentificationP", "currentPageIndicatorTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "numberOfPages"]
+- !private ["So29UIAccessibilityIdentificationP", "pageIndicatorTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "currentPage"]
+- !private ["So12UIAppearanceP", "currentPageIndicatorTintColor"]
+- !private ["So12UIAppearanceP", "frame"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "numberOfPages"]
+- !private ["So12UIAppearanceP", "pageIndicatorTintColor"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "AdsViewController"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", "UIPageControl"]
+- !private ["So21UIAppearanceContainerP", "UIViewController"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "configurePageControl"]
+- !private ["So21UIAppearanceContainerP", "controllers"]
+- !private ["So21UIAppearanceContainerP", "currentPage"]
+- !private ["So21UIAppearanceContainerP", "currentPageIndicatorTintColor"]
+- !private ["So21UIAppearanceContainerP", "dataSource"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loadURLRequest"]
+- !private ["So21UIAppearanceContainerP", "numberOfPages"]
+- !private ["So21UIAppearanceContainerP", "pageControl"]
+- !private ["So21UIAppearanceContainerP", "pageIndicatorTintColor"]
+- ["So21UIAppearanceContainerP", "pageViewController"]
+- ["So21UIAppearanceContainerP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So21UIAppearanceContainerP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So21UIAppearanceContainerP", "presentationCount"]
+- ["So21UIAppearanceContainerP", "presentationCountForPageViewController"]
+- ["So21UIAppearanceContainerP", "presentationIndex"]
+- ["So21UIAppearanceContainerP", "presentationIndexForPageViewController"]
+- !private ["So21UIAppearanceContainerP", "setSubviewSize"]
+- !private ["So21UIAppearanceContainerP", "setViewControllers"]
+- !private ["So21UIAppearanceContainerP", "subController1"]
+- !private ["So21UIAppearanceContainerP", "subController2"]
+- !private ["So21UIAppearanceContainerP", "subController3"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewControllers"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "white"]
+- !private ["So18UIContentContainerP", "AdsViewController"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- ["So18UIContentContainerP", "UIPageControl"]
+- !private ["So18UIContentContainerP", "UIViewController"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "configurePageControl"]
+- !private ["So18UIContentContainerP", "controllers"]
+- !private ["So18UIContentContainerP", "dataSource"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loadURLRequest"]
+- !private ["So18UIContentContainerP", "pageControl"]
+- ["So18UIContentContainerP", "pageViewController"]
+- ["So18UIContentContainerP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UIContentContainerP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So18UIContentContainerP", "presentationCount"]
+- ["So18UIContentContainerP", "presentationCountForPageViewController"]
+- ["So18UIContentContainerP", "presentationIndex"]
+- ["So18UIContentContainerP", "presentationIndexForPageViewController"]
+- !private ["So18UIContentContainerP", "setSubviewSize"]
+- !private ["So18UIContentContainerP", "setViewControllers"]
+- !private ["So18UIContentContainerP", "subController1"]
+- !private ["So18UIContentContainerP", "subController2"]
+- !private ["So18UIContentContainerP", "subController3"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewControllers"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So9UIControlC", "currentPage"]
+- !private ["So9UIControlC", "currentPageIndicatorTintColor"]
+- ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "numberOfPages"]
+- !private ["So9UIControlC", "pageIndicatorTintColor"]
+- !private ["So9UIControlC", "tintColor"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "currentPage"]
+- !private ["So17UICoordinateSpaceP", "currentPageIndicatorTintColor"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "numberOfPages"]
+- !private ["So17UICoordinateSpaceP", "pageIndicatorTintColor"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "currentPage"]
+- !private ["So13UIDynamicItemP", "currentPageIndicatorTintColor"]
+- !private ["So13UIDynamicItemP", "frame"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "numberOfPages"]
+- !private ["So13UIDynamicItemP", "pageIndicatorTintColor"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "AdsViewController"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", "UIPageControl"]
+- !private ["So18UIFocusEnvironmentP", "UIViewController"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "configurePageControl"]
+- !private ["So18UIFocusEnvironmentP", "controllers"]
+- !private ["So18UIFocusEnvironmentP", "currentPage"]
+- !private ["So18UIFocusEnvironmentP", "currentPageIndicatorTintColor"]
+- !private ["So18UIFocusEnvironmentP", "dataSource"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loadURLRequest"]
+- !private ["So18UIFocusEnvironmentP", "numberOfPages"]
+- !private ["So18UIFocusEnvironmentP", "pageControl"]
+- !private ["So18UIFocusEnvironmentP", "pageIndicatorTintColor"]
+- ["So18UIFocusEnvironmentP", "pageViewController"]
+- ["So18UIFocusEnvironmentP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UIFocusEnvironmentP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So18UIFocusEnvironmentP", "presentationCount"]
+- ["So18UIFocusEnvironmentP", "presentationCountForPageViewController"]
+- ["So18UIFocusEnvironmentP", "presentationIndex"]
+- ["So18UIFocusEnvironmentP", "presentationIndexForPageViewController"]
+- !private ["So18UIFocusEnvironmentP", "setSubviewSize"]
+- !private ["So18UIFocusEnvironmentP", "setViewControllers"]
+- !private ["So18UIFocusEnvironmentP", "subController1"]
+- !private ["So18UIFocusEnvironmentP", "subController2"]
+- !private ["So18UIFocusEnvironmentP", "subController3"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewControllers"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "currentPage"]
+- !private ["So11UIFocusItemP", "currentPageIndicatorTintColor"]
+- !private ["So11UIFocusItemP", "frame"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "numberOfPages"]
+- !private ["So11UIFocusItemP", "pageIndicatorTintColor"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- !private ["So13UIPageControlC", "currentPage"]
+- !private ["So13UIPageControlC", "currentPageIndicatorTintColor"]
+- ["So13UIPageControlC", "init"]
+- !private ["So13UIPageControlC", "numberOfPages"]
+- !private ["So13UIPageControlC", "pageIndicatorTintColor"]
+- !private ["So13UIPageControlC", "tintColor"]
+- ["So20UIPageViewControllerC", "AdsViewController"]
+- ["So20UIPageViewControllerC", "Bool"]
+- ["So20UIPageViewControllerC", "CGRect"]
+- !private ["So20UIPageViewControllerC", "UIColor"]
+- ["So20UIPageViewControllerC", "UIPageControl"]
+- ["So20UIPageViewControllerC", "UIPageViewController"]
+- ["So20UIPageViewControllerC", "UIViewController"]
+- ["So20UIPageViewControllerC", ""]
+- ["So20UIPageViewControllerC", "configurePageControl"]
+- ["So20UIPageViewControllerC", "controllers"]
+- !private ["So20UIPageViewControllerC", "dataSource"]
+- ["So20UIPageViewControllerC", "init"]
+- ["So20UIPageViewControllerC", "pageControl"]
+- ["So20UIPageViewControllerC", "pageViewController"]
+- ["So20UIPageViewControllerC", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So20UIPageViewControllerC", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So20UIPageViewControllerC", "presentationCount"]
+- ["So20UIPageViewControllerC", "presentationCountForPageViewController"]
+- ["So20UIPageViewControllerC", "presentationIndex"]
+- ["So20UIPageViewControllerC", "presentationIndexForPageViewController"]
+- !private ["So20UIPageViewControllerC", "setViewControllers"]
+- ["So20UIPageViewControllerC", "subController1"]
+- ["So20UIPageViewControllerC", "subController2"]
+- ["So20UIPageViewControllerC", "subController3"]
+- !private ["So20UIPageViewControllerC", "view"]
+- !private ["So20UIPageViewControllerC", "viewControllers"]
+- ["So20UIPageViewControllerC", "viewDidLoad"]
+- ["So20UIPageViewControllerC", "viewWillAppear"]
+- !private ["So30UIPageViewControllerDataSourceP", "AdsViewController"]
+- !private ["So30UIPageViewControllerDataSourceP", "CGRect"]
+- !private ["So30UIPageViewControllerDataSourceP", "UIColor"]
+- ["So30UIPageViewControllerDataSourceP", "UIPageControl"]
+- !private ["So30UIPageViewControllerDataSourceP", "UIViewController"]
+- ["So30UIPageViewControllerDataSourceP", ""]
+- !private ["So30UIPageViewControllerDataSourceP", "configurePageControl"]
+- !private ["So30UIPageViewControllerDataSourceP", "controllers"]
+- !private ["So30UIPageViewControllerDataSourceP", "dataSource"]
+- !private ["So30UIPageViewControllerDataSourceP", "pageControl"]
+- ["So30UIPageViewControllerDataSourceP", "pageViewController"]
+- ["So30UIPageViewControllerDataSourceP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIPageViewControllerDataSourceP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So30UIPageViewControllerDataSourceP", "presentationCount"]
+- ["So30UIPageViewControllerDataSourceP", "presentationCountForPageViewController"]
+- ["So30UIPageViewControllerDataSourceP", "presentationIndex"]
+- ["So30UIPageViewControllerDataSourceP", "presentationIndexForPageViewController"]
+- !private ["So30UIPageViewControllerDataSourceP", "setViewControllers"]
+- !private ["So30UIPageViewControllerDataSourceP", "subController1"]
+- !private ["So30UIPageViewControllerDataSourceP", "subController2"]
+- !private ["So30UIPageViewControllerDataSourceP", "subController3"]
+- !private ["So30UIPageViewControllerDataSourceP", "view"]
+- !private ["So28UIPageViewControllerDelegateP", "AdsViewController"]
+- !private ["So28UIPageViewControllerDelegateP", "CGRect"]
+- !private ["So28UIPageViewControllerDelegateP", "UIColor"]
+- ["So28UIPageViewControllerDelegateP", "UIPageControl"]
+- !private ["So28UIPageViewControllerDelegateP", "UIViewController"]
+- ["So28UIPageViewControllerDelegateP", ""]
+- !private ["So28UIPageViewControllerDelegateP", "configurePageControl"]
+- !private ["So28UIPageViewControllerDelegateP", "controllers"]
+- !private ["So28UIPageViewControllerDelegateP", "dataSource"]
+- !private ["So28UIPageViewControllerDelegateP", "pageControl"]
+- ["So28UIPageViewControllerDelegateP", "pageViewController"]
+- ["So28UIPageViewControllerDelegateP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So28UIPageViewControllerDelegateP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So28UIPageViewControllerDelegateP", "presentationCount"]
+- ["So28UIPageViewControllerDelegateP", "presentationCountForPageViewController"]
+- ["So28UIPageViewControllerDelegateP", "presentationIndex"]
+- ["So28UIPageViewControllerDelegateP", "presentationIndexForPageViewController"]
+- !private ["So28UIPageViewControllerDelegateP", "setViewControllers"]
+- !private ["So28UIPageViewControllerDelegateP", "subController1"]
+- !private ["So28UIPageViewControllerDelegateP", "subController2"]
+- !private ["So28UIPageViewControllerDelegateP", "subController3"]
+- !private ["So28UIPageViewControllerDelegateP", "view"]
+- !private ["SC39UIPageViewControllerNavigationDirectionO", "forward"]
+- !private ["So30UIPasteConfigurationSupportingP", "AdsViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", "UIPageControl"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIViewController"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "configurePageControl"]
+- !private ["So30UIPasteConfigurationSupportingP", "controllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "currentPage"]
+- !private ["So30UIPasteConfigurationSupportingP", "currentPageIndicatorTintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadURLRequest"]
+- !private ["So30UIPasteConfigurationSupportingP", "numberOfPages"]
+- !private ["So30UIPasteConfigurationSupportingP", "pageControl"]
+- !private ["So30UIPasteConfigurationSupportingP", "pageIndicatorTintColor"]
+- ["So30UIPasteConfigurationSupportingP", "pageViewController"]
+- ["So30UIPasteConfigurationSupportingP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIPasteConfigurationSupportingP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So30UIPasteConfigurationSupportingP", "presentationCount"]
+- ["So30UIPasteConfigurationSupportingP", "presentationCountForPageViewController"]
+- ["So30UIPasteConfigurationSupportingP", "presentationIndex"]
+- ["So30UIPasteConfigurationSupportingP", "presentationIndexForPageViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSubviewSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "setViewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "subController1"]
+- !private ["So30UIPasteConfigurationSupportingP", "subController2"]
+- !private ["So30UIPasteConfigurationSupportingP", "subController3"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "AdsViewController"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIPageControl"]
+- ["So11UIResponderC", "UIPageViewController"]
+- ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "addSubview"]
+- ["So11UIResponderC", "configurePageControl"]
+- ["So11UIResponderC", "controllers"]
+- !private ["So11UIResponderC", "currentPage"]
+- !private ["So11UIResponderC", "currentPageIndicatorTintColor"]
+- !private ["So11UIResponderC", "dataSource"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "loadURLRequest"]
+- !private ["So11UIResponderC", "numberOfPages"]
+- ["So11UIResponderC", "pageControl"]
+- !private ["So11UIResponderC", "pageIndicatorTintColor"]
+- ["So11UIResponderC", "pageViewController"]
+- ["So11UIResponderC", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So11UIResponderC", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So11UIResponderC", "presentationCount"]
+- ["So11UIResponderC", "presentationCountForPageViewController"]
+- ["So11UIResponderC", "presentationIndex"]
+- ["So11UIResponderC", "presentationIndexForPageViewController"]
+- !private ["So11UIResponderC", "setSubviewSize"]
+- !private ["So11UIResponderC", "setViewControllers"]
+- ["So11UIResponderC", "subController1"]
+- ["So11UIResponderC", "subController2"]
+- ["So11UIResponderC", "subController3"]
+- !private ["So11UIResponderC", "tintColor"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So11UIResponderC", "viewControllers"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "AdsViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", "UIPageControl"]
+- !private ["So30UIResponderStandardEditActionsP", "UIViewController"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "configurePageControl"]
+- !private ["So30UIResponderStandardEditActionsP", "controllers"]
+- !private ["So30UIResponderStandardEditActionsP", "currentPage"]
+- !private ["So30UIResponderStandardEditActionsP", "currentPageIndicatorTintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loadURLRequest"]
+- !private ["So30UIResponderStandardEditActionsP", "numberOfPages"]
+- !private ["So30UIResponderStandardEditActionsP", "pageControl"]
+- !private ["So30UIResponderStandardEditActionsP", "pageIndicatorTintColor"]
+- ["So30UIResponderStandardEditActionsP", "pageViewController"]
+- ["So30UIResponderStandardEditActionsP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIResponderStandardEditActionsP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So30UIResponderStandardEditActionsP", "presentationCount"]
+- ["So30UIResponderStandardEditActionsP", "presentationCountForPageViewController"]
+- ["So30UIResponderStandardEditActionsP", "presentationIndex"]
+- ["So30UIResponderStandardEditActionsP", "presentationIndexForPageViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "setSubviewSize"]
+- !private ["So30UIResponderStandardEditActionsP", "setViewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "subController1"]
+- !private ["So30UIResponderStandardEditActionsP", "subController2"]
+- !private ["So30UIResponderStandardEditActionsP", "subController3"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "AdsViewController"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- ["So16UIStateRestoringP", "UIPageControl"]
+- !private ["So16UIStateRestoringP", "UIViewController"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "configurePageControl"]
+- !private ["So16UIStateRestoringP", "controllers"]
+- !private ["So16UIStateRestoringP", "dataSource"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loadURLRequest"]
+- !private ["So16UIStateRestoringP", "pageControl"]
+- ["So16UIStateRestoringP", "pageViewController"]
+- ["So16UIStateRestoringP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UIStateRestoringP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So16UIStateRestoringP", "presentationCount"]
+- ["So16UIStateRestoringP", "presentationCountForPageViewController"]
+- ["So16UIStateRestoringP", "presentationIndex"]
+- ["So16UIStateRestoringP", "presentationIndexForPageViewController"]
+- !private ["So16UIStateRestoringP", "setSubviewSize"]
+- !private ["So16UIStateRestoringP", "setViewControllers"]
+- !private ["So16UIStateRestoringP", "subController1"]
+- !private ["So16UIStateRestoringP", "subController2"]
+- !private ["So16UIStateRestoringP", "subController3"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewControllers"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "AdsViewController"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", "UIPageControl"]
+- !private ["So18UITraitEnvironmentP", "UIViewController"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "configurePageControl"]
+- !private ["So18UITraitEnvironmentP", "controllers"]
+- !private ["So18UITraitEnvironmentP", "currentPage"]
+- !private ["So18UITraitEnvironmentP", "currentPageIndicatorTintColor"]
+- !private ["So18UITraitEnvironmentP", "dataSource"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loadURLRequest"]
+- !private ["So18UITraitEnvironmentP", "numberOfPages"]
+- !private ["So18UITraitEnvironmentP", "pageControl"]
+- !private ["So18UITraitEnvironmentP", "pageIndicatorTintColor"]
+- ["So18UITraitEnvironmentP", "pageViewController"]
+- ["So18UITraitEnvironmentP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UITraitEnvironmentP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So18UITraitEnvironmentP", "presentationCount"]
+- ["So18UITraitEnvironmentP", "presentationCountForPageViewController"]
+- ["So18UITraitEnvironmentP", "presentationIndex"]
+- ["So18UITraitEnvironmentP", "presentationIndexForPageViewController"]
+- !private ["So18UITraitEnvironmentP", "setSubviewSize"]
+- !private ["So18UITraitEnvironmentP", "setViewControllers"]
+- !private ["So18UITraitEnvironmentP", "subController1"]
+- !private ["So18UITraitEnvironmentP", "subController2"]
+- !private ["So18UITraitEnvironmentP", "subController3"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewControllers"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "currentPage"]
+- !private ["So6UIViewC", "currentPageIndicatorTintColor"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "numberOfPages"]
+- !private ["So6UIViewC", "pageIndicatorTintColor"]
+- !private ["So6UIViewC", "tintColor"]
+- ["So16UIViewControllerC", "AdsViewController"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "CGRect"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UIPageControl"]
+- ["So16UIViewControllerC", "UIPageViewController"]
+- ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", "configurePageControl"]
+- ["So16UIViewControllerC", "controllers"]
+- !private ["So16UIViewControllerC", "dataSource"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "loadURLRequest"]
+- ["So16UIViewControllerC", "pageControl"]
+- ["So16UIViewControllerC", "pageViewController"]
+- ["So16UIViewControllerC", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UIViewControllerC", "pageViewControllerSupportedInterfaceOrientations"]
+- ["So16UIViewControllerC", "presentationCount"]
+- ["So16UIViewControllerC", "presentationCountForPageViewController"]
+- ["So16UIViewControllerC", "presentationIndex"]
+- ["So16UIViewControllerC", "presentationIndexForPageViewController"]
+- !private ["So16UIViewControllerC", "setSubviewSize"]
+- !private ["So16UIViewControllerC", "setViewControllers"]
+- ["So16UIViewControllerC", "subController1"]
+- ["So16UIViewControllerC", "subController2"]
+- ["So16UIViewControllerC", "subController3"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["So16UIViewControllerC", "viewControllers"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- !private ["So20WKNavigationDelegateP", "init"]
+- !private ["So20WKNavigationDelegateP", "loadURLRequest"]
+- !private ["So20WKNavigationDelegateP", "setSubviewSize"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "index"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "currentPage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "currentPageIndicatorTintColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "numberOfPages"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pageIndicatorTintColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AdsViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIPageControl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configurePageControl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "controllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentPage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentPageIndicatorTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadURLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfPages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pageControl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pageIndicatorTintColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pageViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pageViewControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pageViewControllerSupportedInterfaceOrientations"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationCount"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationCountForPageViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationIndex"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "presentationIndexForPageViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSubviewSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setViewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subController1"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subController2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subController3"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "10secondHand17AdsViewControllerC"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "7SnapKit24ConstraintConstantTargetP"
+- "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "10secondHand22HomePageViewControllerC"
+- "7SnapKit20LayoutConstraintItemP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So13UIPageControlC"
+- "So20UIPageViewControllerC"
+- "So30UIPageViewControllerDataSourceP"
+- "So28UIPageViewControllerDelegateP"
+- !private "SC39UIPageViewControllerNavigationDirectionO"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So20WKNavigationDelegateP"
+- !private "s14_ArrayProtocolP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b7aa0ab75e71f7d7c82422d5cb275ab8"

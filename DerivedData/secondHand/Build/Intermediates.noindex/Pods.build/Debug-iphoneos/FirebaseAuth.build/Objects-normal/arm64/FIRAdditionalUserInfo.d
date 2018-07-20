@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAdditionalUserInfo.m \
+  /Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseAuth.build/module.modulemap \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAdditionalUserInfo_Internal.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAdditionalUserInfo.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyAssertionResponse.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRPCResponse.h

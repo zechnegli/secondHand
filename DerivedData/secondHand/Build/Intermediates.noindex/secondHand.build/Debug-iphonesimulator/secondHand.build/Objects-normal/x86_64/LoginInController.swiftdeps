@@ -24,6 +24,7 @@ depends-top-level:
 - "AuthErrorCode"
 - !private "BooleanLiteralType"
 - !private "CastingPrecedence"
+- !private "Constant"
 - !private "FBSDKAccessToken"
 - !private "FBSDKLoginManager"
 - !private "FacebookAuthProvider"
@@ -37,13 +38,13 @@ depends-top-level:
 - !private "UIAlertAction"
 - !private "UIAlertController"
 - "UIButton"
-- !private "UID"
 - "UITextField"
 - "UIViewController"
 - !private "print"
 depends-member:
 - !private ["So4AuthC", "auth"]
 - !private ["So4AuthC", "signIn"]
+- !private ["So14AuthDataResultC", "user"]
 - ["SC13AuthErrorCodeO", "emailAlreadyInUse"]
 - !private ["SC13AuthErrorCodeO", "init"]
 - ["SC13AuthErrorCodeO", "invalidEmail"]
@@ -54,6 +55,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["s7CVarArgP", "Auth"]
 - !private ["s7CVarArgP", "AuthErrorCode"]
+- !private ["s7CVarArgP", "Constant"]
 - !private ["s7CVarArgP", "FBSDKAccessToken"]
 - !private ["s7CVarArgP", "FBSDKLoginManager"]
 - !private ["s7CVarArgP", "FacebookAuthProvider"]
@@ -61,7 +63,6 @@ depends-member:
 - !private ["s7CVarArgP", "KeychainWrapper"]
 - !private ["s7CVarArgP", "UIAlertAction"]
 - !private ["s7CVarArgP", "UIAlertController"]
-- !private ["s7CVarArgP", "UID"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "addAction"]
@@ -86,12 +87,17 @@ depends-member:
 - !private ["s7CVarArgP", "tokenString"]
 - !private ["s7CVarArgP", "uiDelegate"]
 - !private ["s7CVarArgP", "uid"]
+- !private ["s7CVarArgP", "user"]
 - !private ["s7CVarArgP", "userNameTextfield"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s10CollectionP", "init"]
 - !private ["s10ComparableP", "init"]
+- !private ["10secondHand8ConstantV", "UID"]
+- !private ["10secondHand8ConstantV", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "Auth"]
 - !private ["s28CustomDebugStringConvertibleP", "AuthErrorCode"]
+- !private ["s28CustomDebugStringConvertibleP", "Constant"]
 - !private ["s28CustomDebugStringConvertibleP", "FBSDKAccessToken"]
 - !private ["s28CustomDebugStringConvertibleP", "FBSDKLoginManager"]
 - !private ["s28CustomDebugStringConvertibleP", "FacebookAuthProvider"]
@@ -99,7 +105,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "KeychainWrapper"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertController"]
-- !private ["s28CustomDebugStringConvertibleP", "UID"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addAction"]
 - !private ["s28CustomDebugStringConvertibleP", "auth"]
@@ -123,6 +128,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "tokenString"]
 - !private ["s28CustomDebugStringConvertibleP", "uiDelegate"]
 - !private ["s28CustomDebugStringConvertibleP", "uid"]
+- !private ["s28CustomDebugStringConvertibleP", "user"]
 - !private ["s28CustomDebugStringConvertibleP", "userNameTextfield"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
@@ -131,6 +137,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "Auth"]
 - !private ["s23CustomStringConvertibleP", "AuthErrorCode"]
+- !private ["s23CustomStringConvertibleP", "Constant"]
 - !private ["s23CustomStringConvertibleP", "FBSDKAccessToken"]
 - !private ["s23CustomStringConvertibleP", "FBSDKLoginManager"]
 - !private ["s23CustomStringConvertibleP", "FacebookAuthProvider"]
@@ -138,7 +145,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "KeychainWrapper"]
 - !private ["s23CustomStringConvertibleP", "UIAlertAction"]
 - !private ["s23CustomStringConvertibleP", "UIAlertController"]
-- !private ["s23CustomStringConvertibleP", "UID"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "addAction"]
@@ -163,6 +169,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "tokenString"]
 - !private ["s23CustomStringConvertibleP", "uiDelegate"]
 - !private ["s23CustomStringConvertibleP", "uid"]
+- !private ["s23CustomStringConvertibleP", "user"]
 - !private ["s23CustomStringConvertibleP", "userNameTextfield"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
@@ -171,6 +178,7 @@ depends-member:
 - !private ["s9EncodableP", "init"]
 - !private ["s9EquatableP", "Auth"]
 - !private ["s9EquatableP", "AuthErrorCode"]
+- !private ["s9EquatableP", "Constant"]
 - !private ["s9EquatableP", "FBSDKAccessToken"]
 - !private ["s9EquatableP", "FBSDKLoginManager"]
 - !private ["s9EquatableP", "FacebookAuthProvider"]
@@ -178,7 +186,6 @@ depends-member:
 - !private ["s9EquatableP", "KeychainWrapper"]
 - !private ["s9EquatableP", "UIAlertAction"]
 - !private ["s9EquatableP", "UIAlertController"]
-- !private ["s9EquatableP", "UID"]
 - ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "addAction"]
@@ -207,6 +214,7 @@ depends-member:
 - !private ["s9EquatableP", "tokenString"]
 - !private ["s9EquatableP", "uiDelegate"]
 - !private ["s9EquatableP", "uid"]
+- !private ["s9EquatableP", "user"]
 - !private ["s9EquatableP", "userNameTextfield"]
 - ["s9EquatableP", "userNotFound"]
 - !private ["s9EquatableP", "viewDidLoad"]
@@ -229,6 +237,7 @@ depends-member:
 - !private ["So9GIDSignInC", "uiDelegate"]
 - !private ["So19GIDSignInUIDelegateP", "Auth"]
 - !private ["So19GIDSignInUIDelegateP", "AuthErrorCode"]
+- !private ["So19GIDSignInUIDelegateP", "Constant"]
 - !private ["So19GIDSignInUIDelegateP", "FBSDKAccessToken"]
 - !private ["So19GIDSignInUIDelegateP", "FBSDKLoginManager"]
 - !private ["So19GIDSignInUIDelegateP", "FacebookAuthProvider"]
@@ -236,7 +245,6 @@ depends-member:
 - !private ["So19GIDSignInUIDelegateP", "KeychainWrapper"]
 - !private ["So19GIDSignInUIDelegateP", "UIAlertAction"]
 - !private ["So19GIDSignInUIDelegateP", "UIAlertController"]
-- !private ["So19GIDSignInUIDelegateP", "UID"]
 - ["So19GIDSignInUIDelegateP", ""]
 - !private ["So19GIDSignInUIDelegateP", "convertErrorCodeToMessage"]
 - !private ["So19GIDSignInUIDelegateP", "giveAlert"]
@@ -249,6 +257,7 @@ depends-member:
 - !private ["So19GIDSignInUIDelegateP", "userNameTextfield"]
 - !private ["s8HashableP", "Auth"]
 - !private ["s8HashableP", "AuthErrorCode"]
+- !private ["s8HashableP", "Constant"]
 - !private ["s8HashableP", "FBSDKAccessToken"]
 - !private ["s8HashableP", "FBSDKLoginManager"]
 - !private ["s8HashableP", "FacebookAuthProvider"]
@@ -256,7 +265,6 @@ depends-member:
 - !private ["s8HashableP", "KeychainWrapper"]
 - !private ["s8HashableP", "UIAlertAction"]
 - !private ["s8HashableP", "UIAlertController"]
-- !private ["s8HashableP", "UID"]
 - ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "addAction"]
@@ -285,14 +293,17 @@ depends-member:
 - !private ["s8HashableP", "tokenString"]
 - !private ["s8HashableP", "uiDelegate"]
 - !private ["s8HashableP", "uid"]
+- !private ["s8HashableP", "user"]
 - !private ["s8HashableP", "userNameTextfield"]
 - ["s8HashableP", "userNotFound"]
 - !private ["s8HashableP", "viewDidLoad"]
 - ["s8HashableP", "wrongPassword"]
 - !private ["20SwiftKeychainWrapper0bC0C", "set"]
 - !private ["20SwiftKeychainWrapper0bC0C", "standard"]
+- !private ["7SnapKit20LayoutConstraintItemP", "text"]
 - !private ["10secondHand17LoginInControllerC", "Auth"]
 - ["10secondHand17LoginInControllerC", "AuthErrorCode"]
+- !private ["10secondHand17LoginInControllerC", "Constant"]
 - !private ["10secondHand17LoginInControllerC", "FBSDKAccessToken"]
 - !private ["10secondHand17LoginInControllerC", "FBSDKLoginManager"]
 - !private ["10secondHand17LoginInControllerC", "FacebookAuthProvider"]
@@ -303,7 +314,6 @@ depends-member:
 - !private ["10secondHand17LoginInControllerC", "UIAlertAction"]
 - !private ["10secondHand17LoginInControllerC", "UIAlertController"]
 - ["10secondHand17LoginInControllerC", "UIButton"]
-- !private ["10secondHand17LoginInControllerC", "UID"]
 - ["10secondHand17LoginInControllerC", "UITextField"]
 - ["10secondHand17LoginInControllerC", "convertErrorCodeToMessage"]
 - ["10secondHand17LoginInControllerC", "deinit"]
@@ -328,6 +338,7 @@ depends-member:
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "Auth"]
 - !private ["So8NSCodingP", "AuthErrorCode"]
+- !private ["So8NSCodingP", "Constant"]
 - !private ["So8NSCodingP", "FBSDKAccessToken"]
 - !private ["So8NSCodingP", "FBSDKLoginManager"]
 - !private ["So8NSCodingP", "FacebookAuthProvider"]
@@ -335,7 +346,6 @@ depends-member:
 - !private ["So8NSCodingP", "KeychainWrapper"]
 - !private ["So8NSCodingP", "UIAlertAction"]
 - !private ["So8NSCodingP", "UIAlertController"]
-- !private ["So8NSCodingP", "UID"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addAction"]
 - !private ["So8NSCodingP", "code"]
@@ -361,6 +371,7 @@ depends-member:
 - !private ["So7NSErrorC", "code"]
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
 - !private ["So26NSExtensionRequestHandlingP", "AuthErrorCode"]
+- !private ["So26NSExtensionRequestHandlingP", "Constant"]
 - !private ["So26NSExtensionRequestHandlingP", "FBSDKAccessToken"]
 - !private ["So26NSExtensionRequestHandlingP", "FBSDKLoginManager"]
 - !private ["So26NSExtensionRequestHandlingP", "FacebookAuthProvider"]
@@ -368,7 +379,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "KeychainWrapper"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertAction"]
 - !private ["So26NSExtensionRequestHandlingP", "UIAlertController"]
-- !private ["So26NSExtensionRequestHandlingP", "UID"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "addAction"]
 - !private ["So26NSExtensionRequestHandlingP", "convertErrorCodeToMessage"]
@@ -385,6 +395,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - !private ["So8NSObjectC", "Auth"]
 - ["So8NSObjectC", "AuthErrorCode"]
+- !private ["So8NSObjectC", "Constant"]
 - !private ["So8NSObjectC", "FBSDKAccessToken"]
 - !private ["So8NSObjectC", "FBSDKLoginManager"]
 - !private ["So8NSObjectC", "FacebookAuthProvider"]
@@ -395,7 +406,6 @@ depends-member:
 - !private ["So8NSObjectC", "UIAlertAction"]
 - !private ["So8NSObjectC", "UIAlertController"]
 - ["So8NSObjectC", "UIButton"]
-- !private ["So8NSObjectC", "UID"]
 - ["So8NSObjectC", "UITextField"]
 - !private ["So8NSObjectC", "addAction"]
 - !private ["So8NSObjectC", "auth"]
@@ -424,10 +434,12 @@ depends-member:
 - !private ["So8NSObjectC", "tokenString"]
 - !private ["So8NSObjectC", "uiDelegate"]
 - !private ["So8NSObjectC", "uid"]
+- !private ["So8NSObjectC", "user"]
 - ["So8NSObjectC", "userNameTextfield"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "Auth"]
 - !private ["So16NSObjectProtocolP", "AuthErrorCode"]
+- !private ["So16NSObjectProtocolP", "Constant"]
 - !private ["So16NSObjectProtocolP", "FBSDKAccessToken"]
 - !private ["So16NSObjectProtocolP", "FBSDKLoginManager"]
 - !private ["So16NSObjectProtocolP", "FacebookAuthProvider"]
@@ -435,7 +447,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "KeychainWrapper"]
 - !private ["So16NSObjectProtocolP", "UIAlertAction"]
 - !private ["So16NSObjectProtocolP", "UIAlertController"]
-- !private ["So16NSObjectProtocolP", "UID"]
 - ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "addAction"]
 - !private ["So16NSObjectProtocolP", "auth"]
@@ -459,6 +470,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "tokenString"]
 - !private ["So16NSObjectProtocolP", "uiDelegate"]
 - !private ["So16NSObjectProtocolP", "uid"]
+- !private ["So16NSObjectProtocolP", "user"]
 - !private ["So16NSObjectProtocolP", "userNameTextfield"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - !private ["So14NSSecureCodingP", "code"]
@@ -486,6 +498,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So21UIAppearanceContainerP", "Auth"]
 - !private ["So21UIAppearanceContainerP", "AuthErrorCode"]
+- !private ["So21UIAppearanceContainerP", "Constant"]
 - !private ["So21UIAppearanceContainerP", "FBSDKAccessToken"]
 - !private ["So21UIAppearanceContainerP", "FBSDKLoginManager"]
 - !private ["So21UIAppearanceContainerP", "FacebookAuthProvider"]
@@ -493,7 +506,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "KeychainWrapper"]
 - !private ["So21UIAppearanceContainerP", "UIAlertAction"]
 - !private ["So21UIAppearanceContainerP", "UIAlertController"]
-- !private ["So21UIAppearanceContainerP", "UID"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "addAction"]
 - !private ["So21UIAppearanceContainerP", "convertErrorCodeToMessage"]
@@ -511,6 +523,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So18UIContentContainerP", "Auth"]
 - !private ["So18UIContentContainerP", "AuthErrorCode"]
+- !private ["So18UIContentContainerP", "Constant"]
 - !private ["So18UIContentContainerP", "FBSDKAccessToken"]
 - !private ["So18UIContentContainerP", "FBSDKLoginManager"]
 - !private ["So18UIContentContainerP", "FacebookAuthProvider"]
@@ -518,7 +531,6 @@ depends-member:
 - !private ["So18UIContentContainerP", "KeychainWrapper"]
 - !private ["So18UIContentContainerP", "UIAlertAction"]
 - !private ["So18UIContentContainerP", "UIAlertController"]
-- !private ["So18UIContentContainerP", "UID"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "addAction"]
 - !private ["So18UIContentContainerP", "convertErrorCodeToMessage"]
@@ -539,6 +551,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So18UIFocusEnvironmentP", "Auth"]
 - !private ["So18UIFocusEnvironmentP", "AuthErrorCode"]
+- !private ["So18UIFocusEnvironmentP", "Constant"]
 - !private ["So18UIFocusEnvironmentP", "FBSDKAccessToken"]
 - !private ["So18UIFocusEnvironmentP", "FBSDKLoginManager"]
 - !private ["So18UIFocusEnvironmentP", "FacebookAuthProvider"]
@@ -546,7 +559,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "KeychainWrapper"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertAction"]
 - !private ["So18UIFocusEnvironmentP", "UIAlertController"]
-- !private ["So18UIFocusEnvironmentP", "UID"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "addAction"]
 - !private ["So18UIFocusEnvironmentP", "convertErrorCodeToMessage"]
@@ -566,6 +578,7 @@ depends-member:
 - !private ["So10UIKeyInputP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "Auth"]
 - !private ["So30UIPasteConfigurationSupportingP", "AuthErrorCode"]
+- !private ["So30UIPasteConfigurationSupportingP", "Constant"]
 - !private ["So30UIPasteConfigurationSupportingP", "FBSDKAccessToken"]
 - !private ["So30UIPasteConfigurationSupportingP", "FBSDKLoginManager"]
 - !private ["So30UIPasteConfigurationSupportingP", "FacebookAuthProvider"]
@@ -573,7 +586,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "KeychainWrapper"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIAlertController"]
-- !private ["So30UIPasteConfigurationSupportingP", "UID"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "convertErrorCodeToMessage"]
@@ -591,6 +603,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So11UIResponderC", "Auth"]
 - ["So11UIResponderC", "AuthErrorCode"]
+- !private ["So11UIResponderC", "Constant"]
 - !private ["So11UIResponderC", "FBSDKAccessToken"]
 - !private ["So11UIResponderC", "FBSDKLoginManager"]
 - !private ["So11UIResponderC", "FacebookAuthProvider"]
@@ -601,7 +614,6 @@ depends-member:
 - !private ["So11UIResponderC", "UIAlertAction"]
 - !private ["So11UIResponderC", "UIAlertController"]
 - ["So11UIResponderC", "UIButton"]
-- !private ["So11UIResponderC", "UID"]
 - ["So11UIResponderC", "UITextField"]
 - !private ["So11UIResponderC", "addAction"]
 - ["So11UIResponderC", "convertErrorCodeToMessage"]
@@ -624,6 +636,7 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "Auth"]
 - !private ["So30UIResponderStandardEditActionsP", "AuthErrorCode"]
+- !private ["So30UIResponderStandardEditActionsP", "Constant"]
 - !private ["So30UIResponderStandardEditActionsP", "FBSDKAccessToken"]
 - !private ["So30UIResponderStandardEditActionsP", "FBSDKLoginManager"]
 - !private ["So30UIResponderStandardEditActionsP", "FacebookAuthProvider"]
@@ -631,7 +644,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "KeychainWrapper"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertAction"]
 - !private ["So30UIResponderStandardEditActionsP", "UIAlertController"]
-- !private ["So30UIResponderStandardEditActionsP", "UID"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addAction"]
 - !private ["So30UIResponderStandardEditActionsP", "convertErrorCodeToMessage"]
@@ -651,6 +663,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "init"]
 - !private ["So16UIStateRestoringP", "Auth"]
 - !private ["So16UIStateRestoringP", "AuthErrorCode"]
+- !private ["So16UIStateRestoringP", "Constant"]
 - !private ["So16UIStateRestoringP", "FBSDKAccessToken"]
 - !private ["So16UIStateRestoringP", "FBSDKLoginManager"]
 - !private ["So16UIStateRestoringP", "FacebookAuthProvider"]
@@ -658,7 +671,6 @@ depends-member:
 - !private ["So16UIStateRestoringP", "KeychainWrapper"]
 - !private ["So16UIStateRestoringP", "UIAlertAction"]
 - !private ["So16UIStateRestoringP", "UIAlertController"]
-- !private ["So16UIStateRestoringP", "UID"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "addAction"]
 - !private ["So16UIStateRestoringP", "convertErrorCodeToMessage"]
@@ -681,6 +693,7 @@ depends-member:
 - !private ["So34UITextPasteConfigurationSupportingP", "text"]
 - !private ["So18UITraitEnvironmentP", "Auth"]
 - !private ["So18UITraitEnvironmentP", "AuthErrorCode"]
+- !private ["So18UITraitEnvironmentP", "Constant"]
 - !private ["So18UITraitEnvironmentP", "FBSDKAccessToken"]
 - !private ["So18UITraitEnvironmentP", "FBSDKLoginManager"]
 - !private ["So18UITraitEnvironmentP", "FacebookAuthProvider"]
@@ -688,7 +701,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "KeychainWrapper"]
 - !private ["So18UITraitEnvironmentP", "UIAlertAction"]
 - !private ["So18UITraitEnvironmentP", "UIAlertController"]
-- !private ["So18UITraitEnvironmentP", "UID"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "addAction"]
 - !private ["So18UITraitEnvironmentP", "convertErrorCodeToMessage"]
@@ -707,6 +719,7 @@ depends-member:
 - !private ["So6UIViewC", "text"]
 - !private ["So16UIViewControllerC", "Auth"]
 - ["So16UIViewControllerC", "AuthErrorCode"]
+- !private ["So16UIViewControllerC", "Constant"]
 - !private ["So16UIViewControllerC", "FBSDKAccessToken"]
 - !private ["So16UIViewControllerC", "FBSDKLoginManager"]
 - !private ["So16UIViewControllerC", "FacebookAuthProvider"]
@@ -717,7 +730,6 @@ depends-member:
 - !private ["So16UIViewControllerC", "UIAlertAction"]
 - !private ["So16UIViewControllerC", "UIAlertController"]
 - ["So16UIViewControllerC", "UIButton"]
-- !private ["So16UIViewControllerC", "UID"]
 - ["So16UIViewControllerC", "UITextField"]
 - ["So16UIViewControllerC", ""]
 - !private ["So16UIViewControllerC", "addAction"]
@@ -749,6 +761,7 @@ depends-member:
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AuthErrorCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Constant"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKAccessToken"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FBSDKLoginManager"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "FacebookAuthProvider"]
@@ -756,7 +769,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "KeychainWrapper"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertController"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "UID"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
@@ -780,6 +792,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tokenString"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "uiDelegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "uid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "user"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "userNameTextfield"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
@@ -787,6 +800,7 @@ depends-member:
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "So4AuthC"
+- !private "So14AuthDataResultC"
 - "SC13AuthErrorCodeO"
 - !private "s23BidirectionalCollectionP"
 - !private "Sb"
@@ -794,6 +808,8 @@ depends-nominal:
 - "s7CVarArgP"
 - !private "s10CollectionP"
 - !private "s10ComparableP"
+- !private "10secondHand8ConstantV"
+- !private "7SnapKit25ConstraintRelatableTargetP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
@@ -815,6 +831,7 @@ depends-nominal:
 - "So19GIDSignInUIDelegateP"
 - "s8HashableP"
 - !private "20SwiftKeychainWrapper0bC0C"
+- !private "7SnapKit20LayoutConstraintItemP"
 - "10secondHand17LoginInControllerC"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
@@ -877,6 +894,7 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -892,78 +910,82 @@ depends-external:
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FirebaseStorage.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/Core/Sources/Firebase.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginCodeInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManager.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
@@ -975,49 +997,52 @@ depends-external:
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKDeviceLoginManagerResult.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
-- "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseStorage/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
 - "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -1027,5 +1052,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 interface-hash: "6669fc42ad46366d16aed98c1f16d0cb"

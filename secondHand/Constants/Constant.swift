@@ -7,4 +7,11 @@
 //
 
 import Foundation
-let UID = "UID"
+import UIKit
+
+
+struct Constant {
+    let UID = "UID"
+   
+}
+

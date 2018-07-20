@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Login/FIRNoopAuthTokenProvider.m \
+  /Users/zecheng/iosDevelop/secondHand/DerivedData/secondHand/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseDatabase.build/module.modulemap \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Login/FIRNoopAuthTokenProvider.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/FTypedefs.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FTypedefs_Private.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FIRDatabaseQuery_Private.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FRepo.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoInfo.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FPersistentConnection.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Realtime/FConnection.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Realtime/FWebSocketConnection.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/third_party/SocketRocket/FSRWebSocket.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/FUtilities.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/FParsedUrl.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FPath.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataEventType.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleUserCallback.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoManager.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseConfig.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseQuery.h \
+  /Users/zecheng/iosDevelop/secondHand/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataSnapshot.h
